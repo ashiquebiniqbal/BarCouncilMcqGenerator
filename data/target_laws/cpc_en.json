@@ -1,0 +1,1034 @@
+{
+  "metadata": {
+    "act_id": "86",
+    "title": "The Code of Civil Procedure, 1908",
+    "title_bn": null,
+    "act_no": "V",
+    "year": 1908,
+    "category": "Civil & Contract Law",
+    "language": "en",
+    "source_url": "http://bdlaws.minlaw.gov.bd/act-86.html",
+    "scraped_at": "2026-05-23T10:02:39.181377+00:00",
+    "source": "Ministry of Law, Justice and Parliamentary Affairs, Bangladesh",
+    "source_site": "http://bdlaws.minlaw.gov.bd",
+    "total_sections": 169,
+    "sections_with_content": 169,
+    "total_rag_chunks": 169
+  },
+  "sections": [
+    {
+      "section_id": "13590",
+      "title": "Short title, commencement and extent.",
+      "content": "Short title, commencement and extent.\n1.(1) This Act may be cited as the \nCode of Civil Procedure, 1908\n.\n\n\t(2) It shall come into force on the first day of January, 1909.\n\n\t(3) It extends to the whole of Bangladesh.",
+      "has_content": true
+    },
+    {
+      "section_id": "13591",
+      "title": "Definitions",
+      "content": "Definitions\n2. In this Act, unless there is anything repugnant in the subject or context,-\t\t\n\n(1)\t\"Code\" includes rules:\t\t\n\n(2)\t\"decree\" means the formal expression of an adjudication which, so far as regards the Court expressing it, conclusively determines the rights of the parties with regard to all or any of the matters in controversy in the suit and may be either preliminary or final. It shall be deemed to include the rejection of a plaint and the determination of any question within  \n1\n[* * *] section 144, but shall not include-\t\t\n\n(a) \tany adjudication from which an appeal lies as an appeal from an order, or\t\t\n\n(b)\tany order of dismissal for default.\t\t\n\nExplanation.-A decree is preliminary when further proceedings have to be taken before the suit can be completely disposed of. It is final when such adjudication completely disposes of the suit. It may be partly preliminary and partly final:\t\t\n\n(3)\t\"decree-holder\" means any person in whose favour a decree has been passed or an order capable of execution has been made:\t\t\n\n(4)\t\"district\" means the local limits of the jurisdiction of a principal Civil Court of original jurisdiction (hereinafter called a \"District Court\"), and includes the local limits of the ordinary original civil jurisdiction of the High Court Division:\t\t\n\n(5)\t\"foreign Court\" means a Court situate beyond the limits of Bangladesh which has no authority in Bangladesh and is not established or continued by the Government:\t\t\n\n(6)\t\"foreign judgment\" means the judgment of a foreign Court:\t\t\n\n(7)\t\"Government Pleader\" includes any officer appointed by the Government to perform all or any of the functions expressly imposed by this Code on the Government Pleader and also any pleader acting under the directions of the Government Pleader:\t\t\n\n(8)\t\"Judge\" means the presiding officer of a Civil Court:\t\t\n\n(9)\t\"Judgment\" means the statement given by the Judge of the grounds of a decree or order:\t\t\n\n(10)\t\"Judgment-debtor\" means any person against whom a decree has been passed or an order capable of execution has been made:\t\t\n\n(11)\t\"legal representative\" means a person who in law represents the estate of a deceased person, and includes any person who intermeddles with the estate of the deceased and where a party sues or is sued in a representative character the person on whom the estate devolves on the death of the party so suing or sued:\t\t\n\n(12)\t\"mesne profits\" of property means those profits which the person in wrongful possession of such property actually received or might with ordinary diligence have received therefrom, together with interest on such profits but shall not include profits due to improvements made by the person in wrongful possession:\t\t\n\n(13)\t\"movable property\" includes growing crops:\t\t\n\n(14)\t\"order\" means the formal expression of any decision of a Civil Court which is not a decree:\t\t\n\n(15)\t\"pleader\" means any person entitled to appear and plead for another in Court  \n2\n[*  * *]:\t\t\n\n(16)\t\"prescribed\" means prescribed by rules: \t\t\n\n(17)\t\"public officer\" means a person falling under any of the following descriptions, namely:-\t\t\n\n(a)\tevery Judge;\t\t\n\n(b)\tevery member of the Civil Service of  \n3\n[The Republic];\t\t\n\n(c)\tevery commissioned or gazetted officer in the military, naval or air forces of Bangladesh while in the service of the  \n4\n[Republic];\t\t\n\n(d)\tevery officer of a Court of Justice whose duty it is, as such officer, to investigate or report on any matter of law or fact, or to make, authenticate or keep any document, or to take charge or dispose of any property, or to execute any judicial process, or to administer any oath, or to interpret, or to preserve order, in the Court, and every person especially authorised by a Court of Justice to perform any of such duties;\t\t\n\n(e)\tevery person who holds any office by virtue of which he is empowered to place or keep any person in confinement;\t\t\n\n(f)\tevery officer of the Government whose duty it is, as such officer, to prevent offences, to give information of offences, to bring offenders to justice, or to protect the public health, safety or convenience;\t\t\n\n(g)\tevery officer whose duty it is, as such officer, to take, receive, keep or expend any property on behalf of the Government, or to make any survey, assessment or contract on behalf of the Government, or to execute any revenue-process, or to investigate, or to report on, any matter affecting the pecuniary interest of the  Government,  or  to  make,  authenticate  or keep any document relating to the pecuniary interests of the Government, or to prevent the infraction of any law for the protection of the pecuniary interests of the Government; and\t\t\n\n(h)\tevery officer in the service or pay of the  \n5\n[Republic], or remunerated by fees or commission for the performance of any public duty:\t\t\n\n(18)\t\"rules\" means rules and forms contained in the First Schedule or made under section 122 or section 125:\t\t\n\n(19)\t\"share in a corporation\" shall be deemed to include stock, debenture stock, debentures or bonds: and\t\t\n\n(20)\t\"signed\", save in the case of a judgment or decree, includes stamped.",
+      "has_content": true
+    },
+    {
+      "section_id": "13592",
+      "title": "Subordination of Courts.",
+      "content": "Subordination of Courts.\n3. For the purposes of this Code, the District Court is subordinate to the High Court Division, and every Civil Court of a grade inferior to that of a District Court and every Court of Small Causes is subordinate to the High Court Division and District Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "15344",
+      "title": "Savings",
+      "content": "Savings\n4.(1) In the absence of any specific provision to the contrary, nothing in this Code shall be deemed to limit or otherwise affect any special  \n6\n[* * *] law now in force or any special jurisdiction or power conferred, or any special form of procedure prescribed, by or under any other law for the time being in force.\n\n\t(2) In particular and without prejudice to the generality of the proposition contained in sub-section (1), nothing in this Code shall be deemed to limit or otherwise affect any remedy which a land-holder or landlord may have under any law for the time being in force for the recovery of rent of agricultural land from the produce of such land.",
+      "has_content": true
+    },
+    {
+      "section_id": "13594",
+      "title": "Application of the Code of Revenue Courts.",
+      "content": "Application of the Code of Revenue Courts.\n5.(1) Where any Revenue Courts are governed by the provisions of this Code in those matters of procedure upon which any special enactment applicable to them is silent, the Government may, by notification in the official Gazette, declare that any portions of those provisions which are not expressly made applicable by this Code shall not apply to those Courts, or shall only apply to them with such notifications as the Government may prescribe.\n\n\t(2) \"Revenue Court\" in sub-section (1) means a Court having jurisdiction under any  \n7\n[* * *] law to entertain suits or other proceedings relating to the rent, revenue or profits of land used for agricultural purposes, but does not include a Civil Court having original jurisdiction under this Code to try such suits or proceedings as being suits or proceedings of a civil nature.",
+      "has_content": true
+    },
+    {
+      "section_id": "13595",
+      "title": "Pecuniary Jurisdiction.",
+      "content": "Pecuniary Jurisdiction.\n6.  Save in so far as is otherwise expressly provided, nothing herein  contained  shall  operate  to  give  any  Court  jurisdiction over suits the amount or value of the subject-matter of which exceeds the pecuniary limits (if any) of its ordinary jurisdiction.",
+      "has_content": true
+    },
+    {
+      "section_id": "13596",
+      "title": "Small Cause Courts.",
+      "content": "Small Cause Courts.\n7. The following provisions shall not extend to Courts constituted under the  \n8\n[* * *] \nSmall Cause Courts Act, 1887\n, or to Courts exercising the jurisdiction of a Court of Small Causes under the said Act, that is to say,-\t\t\n\n(a)\tso much of the body of the Code as relates to-\t\t\n\n(i)\tsuits excepted from the cognizance of a Court of Small Causes;\t\t\n\n(ii)\tthe execution of decrees in such suits;\t\t\n\n(iii)\tthe execution of decrees against immovable property; and\t\t\n\n(b)\tthe following sections, that is to say,-\t\t\n\nsection 9,\t\t\n\nsections 91 and 92,\t\t\n\nsections 94 and 95 so far as they authorise or relate to-\t\t\n\n(i)\torders for the attachment of immovable \t\t\n\nproperty,\t\t\n\n(ii)\tinjunctions,\t\t\n\n(iii)\tthe appointment of a receiver of immovable property, or\t\t\n\n(iv)\tthe interlocutory orders referred to in clause (e) of section 94; and\t\t\n\nsections 96 to 112 and 115.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "[Omitted]\n8. \t[Omitted by the Adaptation of Central Acts and Ordinance Order, 1949].",
+      "has_content": true
+    },
+    {
+      "section_id": "13604",
+      "title": "Courts to try all civil suits unless barred.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nCourts to try all civil suits unless barred.\n9. The Courts shall (subject to the provisions herein contained) have jurisdiction to try all suits of a civil nature excepting suits of which their cognizance is either expressly or impliedly barred.\t\t\n\nExplanation.-A suit in which the right to property or to an office is contested is a suit of a civil nature, notwithstanding that such right may depend entirely on the decision of questions as to religious rites or ceremonies.",
+      "has_content": true
+    },
+    {
+      "section_id": "13605",
+      "title": "Stay of suit.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nStay of suit.\n10. No Court shall proceed with the trial of any suit in which the matter in issue is also directly and substantially in issue in a previously instituted suit between the same parties, or between parties under whom they or any of them claim litigating under the same title where such suit is pending in the same or any other Court in Bangladesh having jurisdiction to grant the relief claimed, or in any Court beyond the limits of Bangladesh established or continued by the Government and having like jurisdiction, or before the Supreme Court.\t\n\n\tExplanation.-The pendency of a suit in a foreign Court does not preclude the Court in Bangladesh from trying a suit founded on the same cause of action.",
+      "has_content": true
+    },
+    {
+      "section_id": "13606",
+      "title": "Res Judicata",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nRes Judicata\n11. No Court shall try any suit or issue in which the matter directly and substantially in issue has been directly and substantially in issue in a former suit between the same parties, or between parties under whom they or any of them claim, litigating under the same title, in a court competent to try such subsequent suit or the suit in which such issue has been subsequently raised, and has been heard and finally decided by such Court.\t\t\n\n\tExplanation I.-The expression \"former suit\" shall denote a suit which has been decided prior to the suit in question whether or not it was instituted prior thereto.\t\t\n\n\tExplanation II.-For the purposes of this section, the competence of a Court shall be determined irrespective of any provisions as to a right of appeal from the decision of such Court.\t\t\n\n\tExplanation III.-The matter above referred to must in the former suit have been alleged by one party and either denied or admitted, expressly or impliedly, by the other.\t\t\n\n\tExplanation IV.-Any matter which might and ought to have been made ground of defence or attack in such former suit shall be deemed to have been a matter directly and substantially in issue in such suit.\t\t\n\n\tExplanation V.-Any relief claimed in the plaint, which is not expressly granted by the decree, shall, for the purposes of this section, be deemed to have been refused.\t\t\n\nExplanation VI.-Where persons litigate bona fide in respect of a public right or of a private right claimed in common for themselves and others, all persons interested in such right shall, for the purposes of this section, be deemed to claim under the persons so litigating.",
+      "has_content": true
+    },
+    {
+      "section_id": "13607",
+      "title": "Bar to further suit.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nBar to further suit.\n12. Where a plantiff is precluded by rules from instituting a further suit in respect of any particular cause of action, he shall not be entitled to institute a suit in respect of such cause of action in any Court to which this Code applies.",
+      "has_content": true
+    },
+    {
+      "section_id": "13608",
+      "title": "When foreign judgment not conclusive.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nWhen foreign judgment not conclusive.\n13. A foreign judgment shall be conclusive as to any matter thereby directly adjudicated upon between the same parties or between parties under whom they or any of them claim litigating under the same title except-\n\n(a)\twhere it has not been pronounced by a Court of competent jurisdiction;\n\n(b)\twhere it has not been given on the merits of the case;\n\n(c)\twhere it appears on the face of the proceedings to be founded on an incorrect view of international law or a refusal to recognise the law of Bangladesh in cases in which such law is applicable;\n\n(d)\twhere the proceedings in which the judgment was obtained are opposed to natural justice;\n\n(e)\twhere it has been obtained by fraud;\n\n(f)\twhere it sustains a claim founded on a breach of any law in force in Bangladesh.",
+      "has_content": true
+    },
+    {
+      "section_id": "13609",
+      "title": "Presumption as to foreign judgments.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nPresumption as to foreign judgments.\n14. The Court shall presume, upon the production of any document purporting to be a certified copy of a foreign judgment, that such judgment was pronounced by a Court of competent jurisdiction, unless the contrary appears on the record; but such presumption may be displaced by proving want of jurisdiction.",
+      "has_content": true
+    },
+    {
+      "section_id": "13617",
+      "title": "Court in which suits to be instituted.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nCourt in which suits to be instituted.\n15. Every suit shall be instituted in the Court of the lowest grade competent to try it.",
+      "has_content": true
+    },
+    {
+      "section_id": "13618",
+      "title": "Suits to be instituted where subject-matter situate.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nSuits to be instituted where subject-matter situate.\n16. Subject to the pecuniary or other limitations prescribed by any law, suits-\t\n\n(a)\tfor the recovery of immovable property with or without rent or profits,\t\n\n(b)\tfor the partition of immovable property,\t\n\n(c)\tfor foreclosure, sale or redemption in the case of a mortgage of or charge upon immovable property,\t\n\n(d)\tfor the determination of any other right to or interest in immovable property,\t\n\n(e)\tfor compensation for wrong to immovable property,\t\n\n(f)\tfor the recovery of movable property actually under distraint or attachment,\t\n\nshall be instituted in the Court within the local limits of whose jurisdiction the property is situate, or, in the case of suits referred to in clause (c), at the place where the cause of action has wholly or partly arisen:\t\n\n\tProvided that a suit to obtain relief respecting, or compensation for wrong to, immovable property held by or on behalf of the defendant may, where the relief sought can be entirely obtained through his personal obedience, be instituted either in the Court within the local limits of whose jurisdiction the property is situate, or, in the case of suits referred to in clause (c), at the place where the cause of action has wholly or partly arisen, or in the Court within the local limits of whose jurisdiction the defendant actually and voluntarily resides, or carries on business, or personally works for gain.\t\n\n\tExplanation.-In this section \"property' means property situate in Bangladesh.",
+      "has_content": true
+    },
+    {
+      "section_id": "13619",
+      "title": "Suits for immovable property situate within jurisdiction of different Courts.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nSuits for immovable property situate within jurisdiction of different Courts.\n17. Where a suit is to obtain relief respecting, or compensation for wrong to, immovable property situate within the  jurisdiction  of  different  Courts, the suit may be instituted in any Court within the local limits of whose jurisdiction any portion of the property is situate:\n\n\tProvided that, in respect of the value of the subject-matter of the suit, the entire claim is cognizable by such Court",
+      "has_content": true
+    },
+    {
+      "section_id": "13620",
+      "title": "Place of institution of suit where local limits of jurisdiction of Courts are uncertain.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nPlace of institution of suit where local limits of jurisdiction of Courts are uncertain.\n18.(1) Where it is alleged to be uncertain within the local limits of the jurisdiction of which of two or more Courts any immovable property is situate, any one of those Courts may, if satisfied that there is ground for the alleged uncertainly, record a statement to that effect and thereupon proceed to entertain and dispose of any suit relating to that property, and its decree in the suit shall have the same effect as if the property were situate within the local limits of its jurisdiction:\t\n\n\tProvided that the suit is one with respect to which the Court is competent as regards the nature and value of the suit to exercise jurisdiction.\t\n\n\t(2) Where a statement has not been recorded under sub-section (1), and an objection is taken before an appellate or revisional Court that a decree or order in a suit relating to such property was made by a Court not having jurisdiction where the property is situate, the appellate or revisional Court shall not allow the objection unless in its opinion there was, at the time of the institution of the suit, no reasonable ground for uncertainly as to the Court having jurisdiction with respect thereto and there has been a consequent failure of justice.",
+      "has_content": true
+    },
+    {
+      "section_id": "13621",
+      "title": "Suits for compensation for wrongs to person or movables.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nSuits for compensation for wrongs to person or movables.\n19. Where a suit is for compensation for wrong done to the person or to movable property, if the wrong was done within the local limits of the jurisdiction of one Court and the defendant resides, or carries on business, or personally works for gain, within the local limits of the jurisdiction of another Court, the suit may be instituted at the option of the plantiff in either of the said Courts.\t\n\nIllustrations\t\n\n\t(a)\tA, residing in  \n9\n[Chittagong] beats B in Dhaka. \t\n\n\tB may sue A either in Dhaka or in  \n10\n[Chittagong].\t\n\n(b)\tA, residing in  \n11\n[Chittagong] publishes in Dhaka statements defamatory of B. B may sue A either in Dhaka, or in  \n12\n[Chittagong].",
+      "has_content": true
+    },
+    {
+      "section_id": "13622",
+      "title": "Others suits to be instituted where defendants reside or cause of action arises.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nOthers suits to be instituted where defendants reside or cause of action arises.\n20. Subject to the limitations aforesaid, every suit shall be instituted in a Court within the local limits of whose jurisdiction.\t\n\n(a)\tthe defendant, or each of the defendants where there are more than one, at the time of the commencement of the suit, actually or voluntarily resides, or carries on business, or personally works for gain; or\t\n\n(b)\tany of the defendants, where there are more than one, at the time of the commencement of the suit, actually or voluntarily resides, or carries on business, or personally works for gain, provided that in such case either the leave of the Court is given, or the defendants who do not reside, or carry on business, or personally work for gain, as aforesaid, acquiesce in such institution; or\t\n\n(c)\tthe cause of action, wholly or in part, arises.\t\n\n\tExplanation I.-Where a person has a permanent dwelling at one place and also a temporary residence at another place, he shall be deemed to reside at both places in respect of any cause of action arising at the place where he has such temporary residence.\t\n\n\tExplanation II.-A Corporation shall be deemed to carry on business at its sole or principal office in Bangladesh or, in respect of any cause of action arising at any place where it has also a subordinate office, at such place.\t\n\nIllustrations\t\n\n\t(a) A is a tradesman in Dhaka. B carries on business in  \n13\n[Chittagong]. B, by his agent in Dhaka, buys goods of A and requests A to deliver them to the  \n14\n[Bangladesh Biman]. A delivers the goods accordingly in Dhaka. A may sue B for the price of the goods either in Dhaka, where the cause of action has arisen, or in  \n15\n[Chittagong], where B carries on business.\t\n\n\t(b) A resides at  \n16\n[Cox's Bazar], B at Dhaka and C at  \n17\n[Chittagong]. A, B and C being together at  \n18\n[Khulna], B and C make a joint promissiory note payable on demand, and deliver it to A. A may sue B and C  \n19\n[at Khulna], where the cause of action arose. He may also sue them at Dhaka, where B resides, or at  \n20\n[Chittagong], where C resides; but in each of these cases, if the non-resident defendant objects, the suit cannot proceed without the leave of the Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "13623",
+      "title": "Objections to jurisdiction.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nObjections to jurisdiction.\n21. No objection as to the place of suing shall be allowed by any appellate or revisional Court unless such objection was taken in the Court of first instance at the earliest possible opportunity and in all cases where issues are settled at or before such settlement, and unless there has been a consequent failure of justice.",
+      "has_content": true
+    },
+    {
+      "section_id": "13624",
+      "title": "Power to transfer suits which may be instituted in more than one Court.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nPower to transfer suits which may be instituted in more than one Court.\n22. Where a suit may be instituted in any one of two or \t22. Where a suit may be instituted in any one of two or more Courts and is instituted in one of such Courts, any defendant, after notice to the other parties, may, at the earliest possible opportunity and in all cases where issues are settled at or before such settlement, apply to have the suit transferred to another Court, and the Court to which such application is made, after considering the objections of the other parties (if any), shall determine in which of the several Courts having jurisdiction the suit shall proceed.",
+      "has_content": true
+    },
+    {
+      "section_id": "13625",
+      "title": "To what Court application lies.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nTo what Court application lies.\n23.(1) Where the several Courts having jurisdiction are subordinate to the same Appellate Court, an application under section 22 shall be made to the Appellate Court.\n\n\t(2) Where such Courts are subordinate to different Appellate Courts  \n21\n[* * *], the application shall be made to the  \n22\n[* * *] High Court Division.\n\n\t(3) [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "13626",
+      "title": "General power of transfer and withdrawal.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nGeneral power of transfer and withdrawal.\n24.(1) On the application of any of the parties and after notice to the parties and after hearing such of them as desire to be heard, or of its own motion without such notice, the High Court Division or the District Court may at any stage-\t\t\n\n(a)\ttransfer any suit, appeal or other proceeding pending before it for trial or disposal to any Court subordinate to it and competent to try or dispose of the same, or\t\t\n\n(b) \twithdraw any suit, appeal or other proceeding pending in any Court subordinate to it, and\t\t\n\n(i)\ttry or dispose of the same; or\t\t\n\n\t(ii)\ttransfer the same for trial or disposal to any \tCourt subordinate to it and competent to try \tor dispose of the same; or\t\t\n\n(iii)\tretransfer the same for trial or disposal to \tthe Court from which it was withdrawn.\t\t\n\n\t(2) Where any suit or proceeding has been transferred or withdrawn under sub-section (1), the Court which thereafter tries such suit may, subject to any special directions in the case of any order of transfer, either retry it or proceed from the point at which it was transferred or withdrawn.\t\t\n\n\t(3) For the purposes of this section, Courts of Additional and Assistant Judges shall be deemed to be subordinate to the District Court.\t\t\n\n\t(4) The Court trying any suit transferred or withdrawn under this section from a Court of Small Causes shall, for the purposes of such suit, be deemed to be a Court of Small Causes.",
+      "has_content": true
+    },
+    {
+      "section_id": "13627",
+      "title": "Appearance of parties on transfer of suit, etc.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nAppearance of parties on transfer of suit, etc.\n23\n[24A.(1) Where any suit is transferred under section 22, or any suit, appeal or other proceeding is transferred or withdrawn under sub-section (1) of section 24 on the application of a party, the Court ordering the transfer or withdrawal shall fix a date for the appearance of the parties before itself, if the suit, appeal or other proceeding is to be tried or disposed of by itself, or before the Court to which the case is so transferred.\t\n\n\t(2) Where any suit, appeal or other proceeding is transferred from one Court to another, otherwise than on the application of a party, the parties thereto shall appear before the Court from which the suit, appeal or other proceedings is to be transferred, on the day already fixed for their appearance before that Court, and such Court shall then communicate the order  of  transfer  to  such  parties and direct them to appear before the Court to which the suit, appeal or other proceeding is to be transferred, either on the same day, or on such earliest day as may be reasonable having regard to the distance at which the other Court is located.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\n[Omitted]\n25. [Omitted by the Schedule of the Central Laws (Statute Reform) Ordinance, 1960 (Ordinance No. XXI of 1960).]",
+      "has_content": true
+    },
+    {
+      "section_id": "13630",
+      "title": "Institution of suits.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nInstitution of suits.\n26. \n24\n[1] Every suit shall be instituted by the presentation of a plaint or in such other manner as may be prescribed\n\n25\n[(2) In every plaint, facts shall be proved by affidavit.]",
+      "has_content": true
+    },
+    {
+      "section_id": "24408",
+      "title": "Summons to defendants.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nSummons to defendants.\n27. Where a suit has been duly instituted, a summons may be issued to the defendant to appear and answer the claim and may be served in manner prescribed.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\n[Omitted]\n28. [Omitted by the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973), section 3 and 2nd Schedule.]",
+      "has_content": true
+    },
+    {
+      "section_id": "24410",
+      "title": "Service of foreign summonses.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nService of foreign summonses.\n29. Summonses and other processes issued by any Civil or Revenue Court situate outside Bangladesh may be sent to the Courts in Bangladesh and served as if they were summonses issued by such Courts: \n\n\tProvided that the  \n26\n[Government] has by notification in the official Gazette declared the provisions of this section to apply to such Courts.",
+      "has_content": true
+    },
+    {
+      "section_id": "24411",
+      "title": "Power to order discovery and the like.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nPower to order discovery and the like.\n30. Subject to such conditions and limitations as may be prescribed, the Court may, at any time, either of its own motion or on the application of any party,-\t\n\n(a)\tmake such orders as may be necessary or reasonable in all matters relating to the delivery and answering of interrogatories, the admission of documents and facts, and the discovery, inspection, production, impounding and return of documents or other material objects producible as evidence;\t\n\n(b)\tissue summonses to persons whose attendance is required either to give evidence or to produce documents or such other objects as aforesaid;\t\n\n\t(c)\torder any fact to be proved by affidavit.",
+      "has_content": true
+    },
+    {
+      "section_id": "24412",
+      "title": "Summons to witness.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nSummons to witness.\n31. The provisions in sections 27, 28 and 29 shall apply to summonses to give evidence or to produce documents or other material objects.",
+      "has_content": true
+    },
+    {
+      "section_id": "24413",
+      "title": "Penalty for default.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nPenalty for default.\n32. The Court may compel the attendance of any person to whom a summons has been issued under section 30 and for that purpose may-\n\n(a)\tissue a warrant for his arrest;\t\n\n(b)\tattach and sell his property;\t\n\n(c)\timpose a fine upon him not exceeding five hundred Taka;\t\n\n(d)\torder him to furnish security for his appearance and in default commit him to the civil prison.",
+      "has_content": true
+    },
+    {
+      "section_id": "13707",
+      "title": "Judgment and decree.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nJudgment and decree.\n33. The Court, after the case has been heard, shall pronounce judgment, and on such judgment a decree shall follow.",
+      "has_content": true
+    },
+    {
+      "section_id": "17726",
+      "title": "Interest",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nInterest\n34.(1) Where and in so far as a decree is for the payment of money, the Court may, in the decree, order interest at such rate as the Court deems reasonable to be paid on the principal sum adjudged, from the date of the suit to the date of the decree, in addition to any interest adjudged on such principal sum for any period prior to the institution of the suit, with further interest at such rate as the Court deems reasonable on the aggregate sum so adjudged, from the date of the decree to the date of payment, or to such earlier date as the Court thinks fit.\n\n2) Where such a decree is silent with respect to the payment of further interest on such aggregate sum as aforesaid from the date of the decree to the date of payment or other earlier date, the Court shall be deemed to have refused such interest, and a separate suit therefor shall not lie.",
+      "has_content": true
+    },
+    {
+      "section_id": "13709",
+      "title": "Costs",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nCosts\n35.(1) Subject to such conditions and limitations as may be prescribed, and to the provisions of any law for the time being in force, the costs of and incident to all suits shall be in the discretion of the Court, and the Court shall have full power to determine by whom or out of what property and to what extent such costs are to be paid, and to give all necessary directions for the purposes aforesaid. The fact that the Court has no jurisdiction to try the suit shall be no bar to the exercise of such powers.\n\n(2) Where the Court directs that any costs shall not follow the event, the Court shall state its reasons in writing.\n\n(3) The Court may give interest on costs at any rate not exceeding six per cent. per annum, and such interest shall be added to the costs and shall be recoverable as such.",
+      "has_content": true
+    },
+    {
+      "section_id": "13710",
+      "title": "Compensatory costs in respect of false or vexatious claims or defences.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nCompensatory costs in respect of false or vexatious claims or defences.\n27\n[35A.(1) If in any suit or other proceeding, including an execution proceeding, not being an appeal, any party objects to the claim or defence on the ground that the claim or defence, or any part of it, is false or vexatious, and if, thereafter, such claim or defence is disallowed, in whole or in part, the Court shall, after recording its reasons for holding such claim or defence to be false or vexatious, make an order for the payment to the objector, such cost by way of compensation which may, without exceeding the limit of the Court's pecuniary jurisdiction, extend upto \n28\n[fifty] thousand taka.\n\n(2) No person against whom an order has been made under this section shall, by reason thereof, be exempted from any criminal liability in respect of any claim or defence made by him.\n\n(3) The amount of any cost awarded under this section in respect of a false or vexatious claim or defence shall be taken into account in any subsequent suit for damages or compensation in respect of such claim or defence.]",
+      "has_content": true
+    },
+    {
+      "section_id": "13711",
+      "title": "Cost for delay in making applications, etc., in respect of interlocutory matters.",
+      "content": "ভাগ এর নাম I SUITS IN GENERAL\nCost for delay in making applications, etc., in respect of interlocutory matters.\n29\n[35B.(1) If at any stage of a suit or proceeding, an application or written objection is not filed within the time fixed by the Court, such application or written objection, as the case may be, shall not be admitted for hearing without payment by that party of such cost to the other party not exceeding two thousand taka.\n\n(2) If after filing of written statement, any party to the suit makes an application in respect of any matter which, in the opinion of the Court, could and ought to have been made earlier, and is likely to delay the main proceeding of the suit, the Court may admit, but shall not hear and dispose of the application, without payment by that party of such cost to the other party not exceeding three thousand taka, as it shall determine and direct, and upon failure to pay the cost, the application shall stand rejected.]",
+      "has_content": true
+    },
+    {
+      "section_id": "13790",
+      "title": "Application to orders.",
+      "content": "ভাগ এর নাম II EXECUTION\nApplication to orders.\n36. The provisions of this Code relating to the execution of decrees shall, so far as they are applicable, be deemed to apply to the execution of orders.",
+      "has_content": true
+    },
+    {
+      "section_id": "13791",
+      "title": "Definition of Court which passed a decree.",
+      "content": "ভাগ এর নাম II EXECUTION\nDefinition of Court which passed a decree.\n37. The expression \"Court which passed a decree,\" or words to that effect, shall, in relation to the execution of decrees, unless there is anything repugnant in the subject or context, be deemed to include,-\t\n\n(a)\twhere the decree to be executed has been passed in the exercise of appellate jurisdiction, the Court of first instance, and\t\n\n(b)\twhere the Court of first instance has ceased to exist or to have jurisdiction to execute it, the Court which, if the suit wherein the decree was passed was instituted at the time of making the application for the execution of the decree, would have jurisdiction to try such suit.",
+      "has_content": true
+    },
+    {
+      "section_id": "14886",
+      "title": "Court by which decree may be executed.",
+      "content": "ভাগ এর নাম II EXECUTION\nCourt by which decree may be executed.\n38. A decree may be executed either by the Court which passed it, or by the Court to which it is sent for execution.",
+      "has_content": true
+    },
+    {
+      "section_id": "14887",
+      "title": "Transfer of decree.",
+      "content": "ভাগ এর নাম II EXECUTION\nTransfer of decree.\n39.(1) The Court which passed a decree may, on the application of the decree-holder, send it for execution to another Court,-\t\n\n(a)\tif the person against whom the decree is passed actually and voluntarily resides or carries on business, or personally works for gain, within the local limits of the jurisdiction of such other Court, or\t\n\n(b)\tif such person has not property within the local limits of the jurisdiction of the Court which passed the decree sufficient to satisfy such decree and has property within the local limits of the jurisdiction of such other Court, or\t\n\n(c)\tif the decree directs the sale or delivery of immovable property situate outside the local limits of the jurisdiction of the Court which passed it, or\t\n\n(d)\tif the Court which passed the decree considers for any other reason, which it shall record in writing, that the decree should be executed by such other Court.\t\n\n\t(2) The Court which passed a decree may of its own motion send it for execution to any subordinate Court of competent jurisdiction.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম II EXECUTION\n[Omitted]\n40. [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "14889",
+      "title": "Result of execution proceedings to be certified.",
+      "content": "ভাগ এর নাম II EXECUTION\nResult of execution proceedings to be certified.\n41. The Court to which a decree is sent for execution shall certify to the Court which passed it the fact of such execution, or where the former Court fails to execute the same the circumstances attending such failure.",
+      "has_content": true
+    },
+    {
+      "section_id": "14890",
+      "title": "Powers of Court in executing transferred decree.",
+      "content": "ভাগ এর নাম II EXECUTION\nPowers of Court in executing transferred decree.\n42.(1) The Court executing a decree sent to it shall have the same powers in executing such decree as if it had been passed by itself. All persons disobeying or obstructing the execution of the decree shall be punishable by such Court in the same manner as if it had passed the decree. And its order in executing such decree shall be subject to the same rules in respect of appeal as if the decree had been passed by itself.\t\t\n\n(2) Without prejudice to the generality of the foregoing provision, the Court executing a decree sent to it shall have the following powers, namely:-\t\t\n\n(a)\tpower under section 39 to transfer the decree to another Court, if necessary;\t\t\n\n(b)\tpower under sub-section (1) of section 50 to permit execution to proceed against the legal representatives of a deceased judgment-debtor;\t\t\n\n(c)\tpower under section 152 to correct clerical or arithmetical errors;\t\t\n\n(d)\tpower under rule 16 of Order XXI to recognise the assignment of a decree;\t\t\n\n(e)\tpower under sub-rule (2) of rule 50 of Order XXI to grant leave to a decree-holder to proceed against a person not already recognised as a partner in a firm in an execution proceeding against the firm;\t\t\n\n(f)\tpower under clause (b) of sub-rule (1) of rule 53 of Order XXI to give notice of attachment of decree passed by another Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "14891",
+      "title": "Execution of decrees passed by British Courts in places to which this Part does not extend or in foreign territory.",
+      "content": "ভাগ এর নাম II EXECUTION\nExecution of decrees passed by British Courts in places to which this Part does not extend or in foreign territory.\n43.\tAny decree passed by a Civil Court established in any area in Bangladesh to which the provisions relating to execution do not extend,  \n30\n[* * *] may, if it cannot be executed within the jurisdiction of the Court by which it was passed, be executed in manner herein provided within the jurisdiction of any Court in Bangladesh.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম II EXECUTION\n[Omitted]\n44. [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "14893",
+      "title": "Execution of decrees passed by Courts in the United Kingdom and other reciprocating territory.",
+      "content": "ভাগ এর নাম II EXECUTION\nExecution of decrees passed by Courts in the United Kingdom and other reciprocating territory.\n31\n[44A.(1) Where a certified copy of a decree of any of the superior Courts of  \n32\n[* * *] any reciprocating territory has been filed in a District Court, the decree may be executed in Bangladesh as if it had been passed by the District Court.\t\t\n\n\t(2) Together with the certified copy of the decree shall be filed a certificate from such superior Court stating the extent, if any, to which the decree has been satisfied or adjusted and such certificate shall, for the purposes of proceedings under this section, be conclusive proof of the extent of such satisfaction or adjustment.\t\t\n\n\t(3) The provisions of section 47 shall as from the filing of the certified copy of the decree apply to the proceedings of a District Court executing a decree under this section, and the District Court shall refuse execution of any such decree, if it is shown to the satisfaction of the Court that the decree falls within any of the exceptions specified in clauses (a) to (f) of section 13.]\t\t\n\n \n33\n[* * *]\t\t\n\n\tExplanation 2.- \"Reciprocating territory\" means  \n34\n[any] country or territory as the Government may, from time to time, by notification in the official Gazette, declare to be reciprocating territory for the purposes of this section; and \"Superior Courts\", with reference to any such territory, means such Courts as may be specified in the said notification.\t\t\n\n\tExplanation 3.-  \"Decree\", with reference to a superior Court, means any decree or judgment of such Court under which a sum of money is payable, not being a sum payable in respect of taxes or other charges of a like nature or in respect of a fine or other penalty, and\t\t\n\n \n35\n[* * *]\t\t\n\n(b) \tin no case includes an arbitration award, even if such award is enforceable as a decree or judgment.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম II EXECUTION\n[Omitted]\n45. [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "14895",
+      "title": "Precepts",
+      "content": "ভাগ এর নাম II EXECUTION\nPrecepts\n46.(1) Upon the application of the decree-holder the Court which passed the decree may, whenever it thinks fit, issue a precept to any other Court which would be competent to execute such decree to attach any property belonging to the judgment-debtor and specified in the precept.\n\n\t(2) The Court to which a precept is sent shall proceed to attach the property in the manner prescribed in regard to the attachment of property in execution of a decree:\n\n\tProvided that no attachment under a precept shall continue for more than two months unless the period of attachment is extended by an order of the Court which passed the decree or unless before the determination of such attachment the decree has been transferred to the Court by which the attachment has been made and the decree-holder has applied for an order for the sale of such property.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম II EXECUTION\n[Omitted]\n47. [Omitted by section 3 of the Code of Civil Procedure (Amendment) Ordinance, 1983 (Ordinance No. XLVIII of 1983).]",
+      "has_content": true
+    },
+    {
+      "section_id": "14898",
+      "title": "Execution barred in certain cases.",
+      "content": "ভাগ এর নাম II EXECUTION\nExecution barred in certain cases.\n48.(1) Where an application to execute a decree not being a decree granting an injunction has been made, no order for the execution  of  the  same  decree  shall be made upon any fresh application presented after the expiration of twelve years from\n\n(a)\tthe date of the decree sought to be executed, or, \n\n(b)\twhere the decree or any subsequent order directs any payment of money or the delivery of any property to be made at a certain date or at recurring periods, the date of the default in making the payment or delivery in respect of which the applicant seeks to execute the decree.\n\n\t(2) \tNothing in this section shall be deemed\n\n(a)\tto preclude the Court from ordering the execution of a decree upon an application presented after the expiration of the said term of twelve years, where the judgment-debtor has, by fraud or force, prevented the execution of the decree at some time within twelve years immediately before the date of the application; or\n\n(b)\tto limit or otherwise affect the operation of article 183 of the First Schedule to the \nLimitation Act, 1908\n.",
+      "has_content": true
+    },
+    {
+      "section_id": "14929",
+      "title": "Transferee",
+      "content": "ভাগ এর নাম II EXECUTION\nTransferee\n49. Every transferee of a decree shall hold the same subject to the equities (if any) which the judgment-debtor might have enforced against the original decree-holder.",
+      "has_content": true
+    },
+    {
+      "section_id": "14930",
+      "title": "Legal representative",
+      "content": "ভাগ এর নাম II EXECUTION\nLegal representative\n50.(1) Where a judgment-debtor dies before the decree has been fully satisfied, the holder of the decree may apply to the Court which passed it to execute the same against the legal representative of the deceased.\n\n\t(2) Where the decree is executed against such legal representative, he shall be liable only to the extent of the property of the deceased which has come to his hands and has not been duly disposed of; and, for the purpose of ascertaining such liability, the Court executing the decree may, of its own motion or on the application of the decree-holder, compel such legal representative to produce such accounts as it thinks fit.",
+      "has_content": true
+    },
+    {
+      "section_id": "14952",
+      "title": "Powers of Court to enforce execution.",
+      "content": "ভাগ এর নাম II EXECUTION\nPowers of Court to enforce execution.\n51. Subject to such conditions and limitations as may be prescribed, the Court may, on the application of the decree-holder, order execution of the decree-\n\n(a) by delivery of any property specifically decreed;\n\n(b) by attachment and sale or by sale without attachment of any property;\n\n(c) by arrest and detention in prison;\n\n(d) by appointing a receiver; or\n\n(e) in such other manner \n36\n[as may be provided hereinafter in the Code or] as the nature of the relief granted may require:\n\nProvided that, where the decree is for the payment of money, execution by detention in prison shall not be ordered unless, after giving the judgment-debtor an opportunity of showing cause why he should not be committed to prison, the Court, for reasons recorded in writing, is satisfied-\n\n(a) that the judgment-debtor, with the object or effect of obstructing or delaying the execution of the decree,-\n\n(i) is likely to abscond or leave the local limits of the jurisdiction of the Court, or\n\n(ii) has, after the institution of the suit in which the decree was passed, dishonestly transferred, concealed, or removed any part of his property, or committed any other act of bad faith in relation to his property; or\n\n(b) that the judgment-debtor has, or has had since the date of the decree, the means to pay the amount of the decree or some substantial part thereof and refuses or neglects or has refused or neglected to pay the same, or\n\n(c) that the decree is for a sum for which the judgment-debtor was bound in a fiduciary capacity to account.\n\nExplanation.-In the calculation of the means of the judgment-debtor for the purposes of clause (b), there shall be left out of account any property which, by or under any law or custom having the force of law for the time being in force, is exempt from attachment in execution of the decree.",
+      "has_content": true
+    },
+    {
+      "section_id": "14953",
+      "title": "Enforcement of decree against legal representative.",
+      "content": "ভাগ এর নাম II EXECUTION\nEnforcement of decree against legal representative.\n52.(1) Where a decree is passed against a party as the legal representative of a deceased person, and the decree is for the payment of money out of the property of the deceased, it may be executed by the attachment and sale of any such property.\n\n(2) Where no such property remains in the possession of the judgment-debtor and he fails to satisfy the Court that he has duly applied such property of the deceased as is proved to have come into his possession, the decree may be executed against the judgment-debtor to the extent of the property in respect of which he has failed so to satisfy the Court in the same manner as if the decree had been against him personally.",
+      "has_content": true
+    },
+    {
+      "section_id": "14954",
+      "title": "Liability of ancestral property.",
+      "content": "ভাগ এর নাম II EXECUTION\nLiability of ancestral property.\n53. For the purposes of section 50 and section 52, property in the hands of a son or other descendant which is liable under Hindu law for the payment of the debt of a deceased ancestor, in respect of which a decree has been passed, shall be deemed to be property of the deceased which has come to the hands of the son or other descendant as his legal representative.",
+      "has_content": true
+    },
+    {
+      "section_id": "14955",
+      "title": "Partition of estate or separation of share.",
+      "content": "ভাগ এর নাম II EXECUTION\nPartition of estate or separation of share.\n54. Where the decree is for the partition of an undivided estate assessed to the payment of revenue to the Government, or for the separate possession of a share of such an estate, the partition of the estate or the separation of the share shall be made by the Collector or any gazetted subordinate of the Collector deputed by him in this behalf, in accordance with the law (if any) for the time being in force relating to the partition, or the separate possession of shares, of such estates.",
+      "has_content": true
+    },
+    {
+      "section_id": "14959",
+      "title": "Arrest and detention.",
+      "content": "ভাগ এর নাম II EXECUTION\nArrest and detention.\n55.(1) A judgment-debtor may be arrested in execution of a decree at any hour and on any day, and shall, as soon as practicable, be brought before the Court, and his detention may be in the civil prison of the district in which the Court ordering the detention is situate, or, where such civil prison does not afford suitable accommodation, in any other place which the Government may appoint for the detention of persons ordered by the Courts of such district to be detained:\n\nProvided, firstly, that, for the purpose of making an arrest under this section, no dwelling-house shall be entered after sunset and before sunrise:\n\nProvided, secondly, that no outer door of a dwelling-house shall be broken open unless such dwelling-house is in the occupancy of the judgment-debtor and he refuses or in any way prevents access thereto, but when the officer authorised to make the arrest has duly gained access to any dwelling-house, he may break open the door of any room in which he has reason to believe the judgment-debtor is to be found:\n\nProvided, thirdly, that, if the room is in the actual occupancy of a woman who is not the judgement-debtor and who according to the customs of the country does not appear in public, the officer authorised to make the arrest shall give notice to her that she is at liberty to withdraw, and, after allowing a reasonable time for her to withdraw and giving her reasonable facility for withdrawing, may enter the room for the purpose of making the arrest:\n\nProvided, fourthly, that, where the decree in execution of which a judgment-debtor is arrested, is a decree for the payment of money and the judgment-debtor pays the amount of the decree and the costs of the arrest to the officer arresting him, such officer shall at once release him.\n\n(2) The Government may, by notification in the official Gazette, declare that any person or class of persons whose arrest might be attended with danger or inconvenience to the public shall not be liable to arrest in execution of a decree otherwise than in accordance with such procedure as may be prescribed by the Government in this behalf.\n\n(3) Where a judgment-debtor is arrested in execution of a decree for the payment of money and brought before the Court, the Court shall inform him that he may apply to be declared an insolvent, and that he may be discharged if he has not committed any act of bad faith regarding the subject of the application and if he complies with the provisions of the law of insolvency for the time being in force.\n\n(4) Where a judgment-debtor expresses his intention to apply to be declared an insolvent and furnishes security, to the satisfaction of the Court, that he will within one month so apply, and that he will appear, when called upon, in any proceeding upon the application or upon the decree in execution of which he was arrested, the Court may release him from arrest, and, if he fails so to apply and to appear, the Court may either direct the security to be realized or commit him to the civil prison in execution of the decree.",
+      "has_content": true
+    },
+    {
+      "section_id": "14960",
+      "title": "Prohibition of arrest or detention of women in execution of decree for money.",
+      "content": "ভাগ এর নাম II EXECUTION\nProhibition of arrest or detention of women in execution of decree for money.\n56. Notwithstanding anything in this Part, the Court shall not order the arrest or detention in the civil prison of \n37\n[an old, infirm, pregnant or breast-feeding woman] in execution of a decree for the payment of money.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম II EXECUTION\n[Omitted]\n38\n[***]",
+      "has_content": true
+    },
+    {
+      "section_id": "14962",
+      "title": "Detention and release.",
+      "content": "ভাগ এর নাম II EXECUTION\nDetention and release.\n58.(1) Every person detained in the civil prison in execution of a decree shall be so detained,-\n\n(a) where the decree is for the payment of a sum of money exceeding fifty Taka, for a period of six months, and,\n\n(b) in any other case for a period of six weeks:\n\nProvided that he shall be released from such detention before the expiration of the said period of six months or six weeks, as the case may be,-\n\n(i) on the amount mentioned in the warrant for his detention being paid to the officer in charge of the civil prison, or\n\n(ii) on the decree against him being otherwise fully satisfied, or\n\n(iii) on the request of the person on whose application he has been so detained \n39\n[:]\n\n40\n[***]\n\nProvided, also, that he shall not be released from such detention under clause (ii) or clause (iii), without the order of the Court.\n\n(2) A judgment-debtor released from detention under this section shall not merely by reason of his release be discharged from his debt, but he shall not be liable to be re-arrested under the decree in execution of which he was detained in the civil prison.",
+      "has_content": true
+    },
+    {
+      "section_id": "14963",
+      "title": "Release on ground of illness.",
+      "content": "ভাগ এর নাম II EXECUTION\nRelease on ground of illness.\n59.(1) At any time after a warrant for the arrest of a judgment-debtor has been issued the Court may cancel it on the ground of his serious illness.\n\n(2) Where a judgment-debtor has been arrested, the Court may release him if, in its opinion, he is not in a fit state of health to be detained in the civil prison.\n\n(3) Where a judgment-debtor has been committed to the civil prison, he may be released therefrom-\n\n(a) by the Government, on the ground of the existence of any infectious or contagious disease, or\n\n(b) by the committing Court, or any Court to which that Court is subordinate, on the ground of his suffering from any serious illness.\n\n(4) A judgment-debtor released under this section may be re-arrested, but the period of his detention in the civil prison shall not in the aggregate exceed that prescribed by section 58.",
+      "has_content": true
+    },
+    {
+      "section_id": "24418",
+      "title": "Property liable to attachment and sale in execution of decree.",
+      "content": "ভাগ এর নাম II EXECUTION\nProperty liable to attachment and sale in execution of decree.\n60.(1) The following property is liable to attachment and sale in execution of a decree, namely, lands, houses or other buildings, goods, money, bank-notes, cheques, bills of exchange, hundis, promissory notes, Government securities, bonds or other securities for money, debts, shares in a corporation and, save as hereinafter mentioned, all other saleable property, moveable or immovable, belonging to the judgment-debtor, or over which, or the profits of which, he has a disposing power which he may exercise for his own benefit, whether the same be held in the name of the judgment-debtor or by another person in trust for him or on his behalf:\tProvided that the following particulars shall not be liable to such attachment or sale, namely:-\t\t\t\n\n(a)\tthe necessary wearing-apparel, cooking vessels, beds and bedding of the judgment-debtor, his wife and children, and such personal ornaments as, in accordance with religious usage, cannot be parted with by any woman;\t\t\t\n\n(b)\ttools of artisans, and, where the judgment-debtor is an agriculturist, his implements of husbandry and such cattle and seed-grain as may, in the opinion of the Court, be necessary to enable him to earn his livelihood as such, and such portion of agricultural produce or of any class of agricultural produce as may have been declared to be free from liability under the provisions of the next following section;\t\t\t\n\n(c)\thouses and other buildings (with the materials and the sites thereof and the land immediately appurtenant thereto and necessary for their enjoyment) belonging to an agriculturist and occupied by him;\t\t\t\n\n(d)\tbooks of account;\t\t\t\n\n(e)\ta mere right to sue for damages;\t\t\t\n\n(f)\tany right of personal service;\t\t\t\n\n(g)\tstipends and gratuities allowed to pensioners of the Government, or payable out of any service family pension fund notified in the official Gazette by the Government or the Government in this behalf, and political pensions;\t\t\t\n\n(h)\tthe wages of labourers and domestic servants, whether payable in money or in kind;\t\t\t\n\n(i)\tsalary to the extent of the first hundred Taka and one-half the remainder:\t\t\t\n\nProvided that where such salary is the salary of a Servant of the  \n41\n[Republic] or a servant of  \n42\n[the Railway] or local authority, and the whole or any part of the portion of such salary liable to attachment has been under attachment, whether continuously or intermittently for a total period of twenty-four months, such portion shall be exempt from attachment until the expiry of a further period of twelve months and, where such attachment has been made in execution of one and the same decree, shall be finally exempt from attachment in execution of that decree;\t\t\n\n(j)\tthe pay and allowances of persons to whom the  \n43\n[\nArmy Act, 1952\n, \nNavy Ordinance, 1961\n, or the \nAir Force Act, 1953\n,] applies;\t\t\t\n\n(k)\tall compulsory deposits and other sums in or derived from any fund to which the \nProvident Funds Act, 1925\n, for the time being applies in so far as they are declared by the said Act not to be liable to attachment;\t\t\t\n\n(l)\tany allowance forming part of the emoluments     of any servant of the  \n44\n[Republic] or of any servant of   \n45\n[the  Railway]  or  local  authority  which  the Government may by notification in the official Gazette declare to be exempt from attachment, and any subsistence grant or allowance made to any such servant while under suspension;\t\t\t\n\n(m)\tan expectancy of succession by survivorship or other merely contingent or possible right or interest;\t\t\t\n\n(n)\ta right to future maintenance;\t\t\t\n\n(o)\tany allowance declared by any Bangladesh law to be exempt from liability to attachment or sale in execution of a decree; and,\t\t\t\n\n(p)\twhere the judgment-debtor is a person liable for the payment of land-revenue, any movable property which, under any law for the time being applicable to him, is exempt from sale for the recovery of an arrear of such revenue.\t\t\t\n\n\t\tExplanation 1.-The particulars mentioned in clauses (g), (h), (i), (j), (l) and (o) are exempt from attachment or sale whether before or after they are actually payable, and in the case of salary other than salary of a servant of the  \n46\n[Republic] or a servant of  \n47\n[the Railway] or local authority the attachable portion thereof is exempt from attachment until it is actually payable.\t\t\t\n\n\t\tExplanation 2.-In clauses (h) and (i), \"salary\" means the total monthly emoluments, excluding any allowance declared exempt from attachment under the provisions of clause (l), derived by a person from his employment whether on duty or on leave.\t\t\t\n\n \n48\n[* * *]\t\t\t\n\n(2) Nothing in this section shall be deemed to exempt houses and other buildings (with the materials and the sites thereof and the lands immediately appurtenant thereto and necessary for their enjoyment) from attachment or sale in execution of decrees for rent of any such house, building, site or land.",
+      "has_content": true
+    },
+    {
+      "section_id": "24419",
+      "title": "Partial exemption of agricultural produce.",
+      "content": "ভাগ এর নাম II EXECUTION\nPartial exemption of agricultural produce.\n61. The Government may, by general or special order published in the official Gazette, declare that such portion of agricultural produce, or of any class of agricultural produce, as may appear to the Government to be necessary for the purpose of providing until the next harvest for the due cultivation of the land and for the support of the judgment-debtor and his family, shall, in the case of all agriculturists or of any class of agriculturists, be exempted from liability to attachment or sale in execution of a decree.",
+      "has_content": true
+    },
+    {
+      "section_id": "24420",
+      "title": "Seizure of property in dwelling-house.",
+      "content": "ভাগ এর নাম II EXECUTION\nSeizure of property in dwelling-house.\n62.(1) No person executing any process under this Code directing or authorising seizure of movable property shall enter any dwelling-house after sunset and before sunrise.\n\n\t(2) No outer door of a dwelling-house shall be broken open unless such dwelling-house is in the occupancy of the judgment-debtor and he refuses or in any way prevents access thereto, but when the person executing any such process has duly gained access to any dwelling-house, he may break open the door of any room in which he has reason to believe any such property to be.\n\n\t(3) Where a room in a dwelling-house is in the actual occupancy of a woman who, according to the customs of the country, does not appear in public, the person executing the process shall give notice to such woman that she is at liberty to withdraw; and, after allowing reasonable time for her to withdraw and giving her reasonable facility for withdrawing, he may enter such room for the purpose of seizing the property, using at the same time every precaution, consistent with these provisions, to prevent its clandestine removal.",
+      "has_content": true
+    },
+    {
+      "section_id": "24421",
+      "title": "Property attached in execution of decrees of several Courts.",
+      "content": "ভাগ এর নাম II EXECUTION\nProperty attached in execution of decrees of several Courts.\n63.(1) Where property not in the custody of any Court is under attachment in execution of decrees of more Courts than one, the Court which shall receive or realize such property and shall determine any claim thereto and any objection to the attachment thereof shall be the Court of highest grade, or, where there is no difference in grade between such Courts, the Court under whose decree the property was first attached.\t\n\n(2) Nothing in this section shall be deemed to invalidate any proceeding taken by a Court executing one of such decrees.",
+      "has_content": true
+    },
+    {
+      "section_id": "24422",
+      "title": "Private alienation of property after attachment to be void.",
+      "content": "ভাগ এর নাম II EXECUTION\nPrivate alienation of property after attachment to be void.\n64. Where an attachment has been made, any private transfer or delivery of the property attached or of any interest therein and any payment to the judgment-debtor of any debt, dividend or other monies contrary to such attachment, shall be void as against all claims enforceable under the attachment.\t\n\n\tExplanation.-For the purposes of this section, claims enforceable under an attachment include claims for the rateable distribution of assets.",
+      "has_content": true
+    },
+    {
+      "section_id": "14985",
+      "title": "Purchaser's title",
+      "content": "ভাগ এর নাম II EXECUTION\nPurchaser's title\n65. Where immovable property is sold in execution of a decree and such sale has become absolute, the property shall be deemed to have vested in the purchaser from the time when the property is sold and not from the time when the sale becomes absolute.",
+      "has_content": true
+    },
+    {
+      "section_id": "14986",
+      "title": "Suit against purchaser not maintainable on ground of purchase being on behalf of plaintiff.",
+      "content": "ভাগ এর নাম II EXECUTION\nSuit against purchaser not maintainable on ground of purchase being on behalf of plaintiff.\n66.(1) No suit shall be maintained against any person claiming title under a purchase certified by the Court in such manner as may be prescribed on the ground that the purchase was made on behalf of the plaintiff or on behalf of some one through whom the plaintiff claims.\t\n\n\t(2) \tNothing in this section shall bar a suit to obtain a declaration that the name of any purchaser certified as aforesaid was inserted in the certificate fraudulently or without the consent of the real purchaser, or interfere with the right of a third person to proceed against that property, though ostensibly sold to the certified purchaser, on the ground that it is liable to satisfy a claim of such third person against the real owner.",
+      "has_content": true
+    },
+    {
+      "section_id": "14987",
+      "title": "Power for Government to make rules as to sales of land in execution of decrees for payment of money.",
+      "content": "ভাগ এর নাম II EXECUTION\nPower for Government to make rules as to sales of land in execution of decrees for payment of money.\n67.(1) The Government may, by notification in the official Gazette, make rules for any local area imposing conditions in respect of the sale of any class of interests in land in execution of decrees for the payment of money, where such interests are so uncertain or undermined as, in the opinion of the Government, to make it impossible to fix their value.\n\n\t(2) When on the date on which this Code came into operation in any local area, any special rules as to sale of land in execution of decrees were in force therein, the Government may, by notification in the official Gazette, declare such rules to be in force, or may, by a like notification, modify the same.\n\n\tEvery notification issued in the exercise of the powers conferred by this sub-section shall set out the rules so continued or modified.",
+      "has_content": true
+    },
+    {
+      "section_id": "14993",
+      "title": "Power to prescribe rules for transferring to Collector execution of certain decrees.",
+      "content": "ভাগ এর নাম II EXECUTION\nPower to prescribe rules for transferring to Collector execution of certain decrees.\n68. The Government may, declare, by notification in the official Gazette, that in any local area the execution of decrees in cases in which a Court has ordered any immovable property to be sold, or the execution of any particular kind of such decrees, or the execution of decrees ordering the sale of any particular kind of, or interest in, immovable property, shall be transferred to the Collector.",
+      "has_content": true
+    },
+    {
+      "section_id": "14994",
+      "title": "Provisions of Third Schedule to apply.",
+      "content": "ভাগ এর নাম II EXECUTION\nProvisions of Third Schedule to apply.\n69. The provisions set forth in the Third Schedule shall apply to all cases in which the execution of a decree has been transferred under the last preceding section.",
+      "has_content": true
+    },
+    {
+      "section_id": "14995",
+      "title": "Rules of procedure.",
+      "content": "ভাগ এর নাম II EXECUTION\nRules of procedure.\n70.(1) The Government may make rules consistent with the aforesaid provisions-\t\t\n\n(a)\tfor the transmission of the decree from the Court to the Collector, and for regulating the procedure of the Collector and his subordinates in executing the same, and for retransmitting the decree from the Collector to the Court;\t\t\n\n(b)\tconferring upon the Collector or any gazetted subordinate of the Collector all or any of the powers which the Court might exercise in the execution of the decree if the execution thereof had not been transferred to the Collector;\t\t\n\n(c)\tproviding for orders made by the Collector or any gazetted subordinate of the Collector, or orders made on appeal with respect to such orders, being subject to appeal to, and revision by, superior revenue-authorities as nearly as may be as the orders made by the Court, or orders made on appeal with respect to such orders, would be subject to appeal to, and revision by, appellate or revisional Courts under this Code or other law for the time being in force if the decree had not been transferred to the Collector.",
+      "has_content": true
+    },
+    {
+      "section_id": "75",
+      "title": "",
+      "content": "ভাগ এর নাম II EXECUTION\n(2) A power conferred by rules made under sub-section (1) upon the collector or any gazetted subordinate of the Collector, or upon any appellate or revisional authority, shall not be exercisable by the Court or by any Court in exercise of any appellate or revisional jurisdiction which it has with respect to decrees or orders of the Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "14996",
+      "title": "Collector deemed to be acting judicially.",
+      "content": "ভাগ এর নাম II EXECUTION\nCollector deemed to be acting judicially.\n71. In executing a decree transferred to the Collector under section 68 the Collector and his subordinates shall be deemed to be acting judicially.",
+      "has_content": true
+    },
+    {
+      "section_id": "14997",
+      "title": "Where Court may authorise Collector to stay public sale of land.",
+      "content": "ভাগ এর নাম II EXECUTION\nWhere Court may authorise Collector to stay public sale of land.\n72.(1) Where in any local area in which no declaration under section 68 is in force the property attached consists of land or of a share in land, and the Collector represents to the Court that the public sale of the land or share is objectionable and that satisfaction of the decree may be made within a reasonable period by a temporary alienation of the land or share, the Court may authorise the Collector to provide for such satisfaction in the manner recommended by him instead of proceeding to a sale of the land or share.\n\n(2) In every such case the provisions of sections 69 to 71 and of any rules made in pursuance thereof shall apply so far as they are applicable.",
+      "has_content": true
+    },
+    {
+      "section_id": "25099",
+      "title": "Proceeds of execution-sale to be rateably distributed among decree-holders.",
+      "content": "ভাগ এর নাম II EXECUTION\nProceeds of execution-sale to be rateably distributed among decree-holders.\n73.(1) Where assets are held by a Court and more persons than one have, before the receipt of such assets, made application to the Court for the execution of decrees for the payment of money passed against the same judgment-debtor and have not obtained satisfaction thereof, the assets, after deducting the costs of realization, shall be rateably distributed among all such persons:\t\n\n\tProvided as follows:-\t\n\n(a)\twhere any property is sold subject to a mortgage or charge, the mortgagee or incumbrancer shall not be entitled to share in any surplus arising from such sale;\t\n\n(b)\twhere any property liable to be sold in execution of a decree is subject to a mortgage or charge, the Court may, with the consent of the mortgagee or incumbrancer, order that the property be sold free from the mortgage or charge, giving to the mortgagee or incumbrancer the same interest in the proceeds of the sale as he had in the property sold;\t\n\n(c)\twhere any immovable property is sold in execution of a decree ordering its sale for the discharge of an incumbrance thereon, the proceeds of sale shall be applied-\t\n\nfirstly, in defraying the expenses of the sale;\t\n\nsecondly, in discharging the amount due under the decree;\t\n\nthirdly, in discharging the interest and principal monies due on subsequent incumbrances (if any); and\t\n\nfourthly, rateably among the holders of decrees for the payment of money against the judgment-debtor, who have, prior to the sale of the property, applied to the Court which passed the decree ordering such sale for execution of such decrees, and have not obtained satisfaction thereof.\t\n\n\t(2) Where all or any of the assets liable to be rateably distributed under this section are paid to a person not entitled to receive the same, any person so entitled may sue such person to compel him to refund the assets.\t\n\n\t(3) Nothing in this section affects any right of the Government.",
+      "has_content": true
+    },
+    {
+      "section_id": "24426",
+      "title": "Resistance to execution.",
+      "content": "ভাগ এর নাম II EXECUTION\nResistance to execution.\n74. Where the Court is satisfied that the holder of a decree for the possession of immovable property or that the purchaser of immovable property sold in execution of a decree has been resisted or obstructed in obtaining possession of the property by the judgment-debtor or some person on his behalf and that such resistance or obstruction was without any just cause, the Court may, at the instance of the decree-holder or purchaser, order the judgment-debtor or such other person to be detained in the civil prison for a term which may extend to thirty days and may further direct that the decree-holder or purchaser be put into possession of the property.",
+      "has_content": true
+    },
+    {
+      "section_id": "15071",
+      "title": "Power of Court to issue commissions.",
+      "content": "ভাগ এর নাম III INCIDENTAL PROCEEDINGS\nPower of Court to issue commissions.\n75. Subject to such conditions and limitations as may be prescribed, the Court may issue a commission-\t\n\n(a)\tto examine any person;\t\n\n(b)\tto make a local investigation;\t\n\n(c)\tto examine or adjust accounts; or\t\n\n(d)\tto make a partition.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম III INCIDENTAL PROCEEDINGS\n[Omitted]\n76.\t[Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15073",
+      "title": "Letter of request.",
+      "content": "ভাগ এর নাম III INCIDENTAL PROCEEDINGS\nLetter of request.\n77. In lieu of issuing a commission the Court may issue a letter of request to examine a witness residing at any place not within Bangladesh.",
+      "has_content": true
+    },
+    {
+      "section_id": "15074",
+      "title": "Commissions issued by foreign Courts.",
+      "content": "ভাগ এর নাম III INCIDENTAL PROCEEDINGS\nCommissions issued by foreign Courts.\n78. Subject to such conditions and limitations as may be prescribed, the provisions as to the execution and return of commissions for the examination of witnesses shall apply to commissions issued by or at the instance of-\t\n\n(a)\tCourts situate beyond the limits of Bangladesh and established or continued by the authority of Government, or\t\n\n \n49\n[* * *]\t\n\n(c)\tCourts of any State or country outside Bangladesh.",
+      "has_content": true
+    },
+    {
+      "section_id": "15123",
+      "title": "Suits by or against the Government.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nSuits by or against the Government.\n79. In a suit by or against the Government the authority to \t79. In a suit by or against the Government the authority to be named as plaintiff or defendant, as the case may be,  \n50\n[shall be Bangladesh]-\t\n\n \n51\n[* * *]",
+      "has_content": true
+    },
+    {
+      "section_id": "15124",
+      "title": "Notice",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nNotice\n80.(1) A suit may be instituted against the Government or against a public officer, in respect of any act purporting to be done by such public officer in his official capacity, after the expiration of two months next after notice in writing has been delivered to or left at the office of,-\t\t\n\n \n52\n[* * *]\t\t\n\n(b)(i) \t\tin the case of a suit against the Government other than a suit relating to the affairs of  \n53\n[the Railway], a Secretary to  \n54\n[the Government] or the Collector of the District; and\t\t\n\n(ii)\tin the case of a suit against the Government relating to the affairs of  \n55\n[the Railway], the General Manager of the Railway  \n56\n[* * *],\t\n\nand in the case of a public officer, delivered to him or left at his office stating the cause of action, the name, description of place of residence of the plaintiff and the relief which he claims; and the plaint shall contain a statement that such notice has been so delivered or left.\t\t\n\n\t(2) Where any such suit is instituted without delivering or leaving such notice as aforesaid or before the expiration of the said period of two months or where the plaint does not contain a statement that such notice has been so delivered or left, the plaintiff shall not be entitled to any costs if settlement as regards the subject-matter of the suit is reached or the Government or the public officer concedes the plaintiff's claim, within the period of two months from the date of the institution of the suit:\t\t\n\n\tProvided that in a suit instituted without such notice, the Court shall allow not less than three months to the Government to submit its written statement.",
+      "has_content": true
+    },
+    {
+      "section_id": "15125",
+      "title": "Exemption from arrest and personal appearance.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nExemption from arrest and personal appearance.\n81. In a suit instituted against a public officer in respect of any act purporting to be done by him in his official capacity-\t\n\n(a)\tthe defendant shall not be liable to arrest nor his property to attachment otherwise than in execution of a decree, and, \t\n\n(b)\twhere the Court is satisfied that the defendant cannot absent himself from his duty without detriment to the public service, it shall exempt him from appearing in person.",
+      "has_content": true
+    },
+    {
+      "section_id": "15126",
+      "title": "Execution of decree.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nExecution of decree.\n82.(1) Where the decree is against the Government or against a public officer in respect of any such act as aforesaid, a time shall be specified in the decree within which it shall be satisfied; and, if the decree is not satisfied within the time so specified, the Court shall report the case for the orders of the Government.\n\n\t(2) Execution shall not be issued on any such decree unless it remains unsatisfied for the period of three months computed from the date of such report.",
+      "has_content": true
+    },
+    {
+      "section_id": "17778",
+      "title": "When aliens may sue.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nWhen aliens may sue.\n83.(1) Alien enemies residing in Bangladesh with the permission of the Government, and alien friends, may sue in the Courts in  \n57\n[Bangladesh], as if they were citizens of  \n58\n[Bangladesh].\t\n\n\t(2) No alien enemy residing in Bangladesh without such permission, or residing in a foreign country, shall sue in any of such Courts. \t\n\n\tExplanation.-Every person residing in a foreign country the Government of which is at war with, or engaged in military operations against, Bangladesh, and carrying on business in that country without a license in that behalf under the hand of a Secretary to the Government shall, for the purpose of sub-section (2), be deemed to be an alien enemy residing in a foreign country.",
+      "has_content": true
+    },
+    {
+      "section_id": "17779",
+      "title": "When foreign States may sue.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nWhen foreign States may sue.\n84.(1) A foreign State may sue in any Court in  \n59\n[Bangladesh]:\n\n\tProvided that such State has been recognized by the Government:\n\n\tProvided, also, that the object of the suit is to enforce a private right vested in the head of such State or in any officer of such State in his public capacity.\n\n\t(2) Every Court shall take judicial notice of the fact that a foreign State has or has not been recognized by the Government.",
+      "has_content": true
+    },
+    {
+      "section_id": "17780",
+      "title": "Persons specially appointed by Government to prosecute or defend for Rules of foreign States.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nPersons specially appointed by Government to prosecute or defend for Rules of foreign States.\n85.(1) Persons specially appointed by order of the Government at the request of the Ruler of any foreign State, or at the request of any person competent, in the opinion of the Government, to act on behalf of such Ruler, to prosecute or defend any suit on his behalf, shall be deemed to be the recognized agents by whom appearances, acts and applications under this Code may be made or done on behalf of such Ruler.\n\n\t (2) An appointment under this section may be made for the purpose of a specified suit or of several specified suits, or for the purpose of all such suits as it may from time to time be necessary to prosecute or defend on behalf of the Ruler.\n\n\t(3) A person appointed under this section may authorise or appoint persons to make appearances and applications and do acts in any such suit or suits as if he were himself a party thereto.",
+      "has_content": true
+    },
+    {
+      "section_id": "17781",
+      "title": "Suits against Rulers.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nSuits against Rulers.\n60\n[86.(1) Any Ruler of foreign State may, with the consent of the Government, certified by the signature of a Secretary to that Government but not without such consent, be sued in any competent Court.\n\n\t(2) Such consent may be given with respect to a specified suit or to several specified suits or with respect to all suits of any specified class or classes, and may specify, in the case of any suit or class of suits, the Court in which the Ruler may be sued; but it shall not be given unless it appears to the consenting authority that the Ruler\n\n(a)\thas instituted a suit in the Court against the person desiring to sue him, or\n\n(b)\tby himself or another trades within the local limits of the jurisdiction of the Court, or\n\n (c)\tis in possession of immovable property situated within those limits and is to be sued with reference to such property or for money charged thereon.\n\n\t(3) No such Ruler shall be arrested under this Code, and, except with the consent of the Government certified as aforesaid, on decree shall be executed against the property of any such Ruler.\n\n\t(4) [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]\n\n\t(5) A person may, as a tenant of immovable property, sue, without such consent as is mentioned in this section, a Ruler from whom he holds or claims to hold the property.",
+      "has_content": true
+    },
+    {
+      "section_id": "17782",
+      "title": "Suits against diplomatic agents.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nSuits against diplomatic agents.\n86A.(1) No proceeding in any Court shall lie against a diplomatic agent except in a case relating to-\n\n(a) any private immovable property situated in Bangladesh held by him in his private capacity and not on behalf of the sending State for the purpose of the mission;\n\n(b) a succession in which the diplomatic agent is involved as executor, administrator, heir or legatee as a private person and not on behalf of the sending State;\n\n(c) any professional or commercial activity exercised by the diplomatic agent in Bangladesh outside his official functions.\n\n(2) No measures of execution shall be taken in respect of a diplomatic agent except in cases which come under clauses (a), (b) and (c) of sub-section (1) and in which such measures can be taken without infringing the inviolability of his person or of his residence.\n\n(3) The initiation of any proceedings in a Court by a diplomatic agent shall preclude him from invoking immunity from jurisdiction under this section in respect of any counter-claim directly connected with the principal claim.\n\n(4) The immunity of a diplomatic agent under sub- (4) The immunity of a diplomatic agent under sub-section (1) or sub-section (2) may be waived by the sending State; and any such waiver shall be express.\n\n(5) Waiver of immunity in respect of any proceedings shall not be held to imply waiver of immunity in respect of any measure of execution for which a separate waiver shall be necessary.\n\n(6) In this section, 'diplomatic agent' in relation to a State means the head of the mission in Bangladesh of that State and includes a member of the staff of that mission having diplomatic rank.]",
+      "has_content": true
+    },
+    {
+      "section_id": "17783",
+      "title": "Style of Rulers as parties to suits.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nStyle of Rulers as parties to suits.\n87. The Ruler of a foreign State may sue, and shall be sued, in the name of his State:\n\n\tProvided that in giving the consent referred to in the foregoing section the Government, or the Government, as the case may be, may direct that any such Ruler shall be sued in the name of an agent or in any other name.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\n[Omitted]\n87A. [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]]",
+      "has_content": true
+    },
+    {
+      "section_id": "15183",
+      "title": "Where interpleader suit may be instituted.",
+      "content": "ভাগ এর নাম IV SUITS IN PARTICULAR CASES\nWhere interpleader suit may be instituted.\n88. Where two or more persons claim adversely to one another the same debt, sum of money or other property, movable or immovable, from another person, who claims no interest therein other than for charges or costs and who is ready to pay or deliver it to the rightful claimant, such other person may institute a suit of interpleader against all the claimants for the purpose of obtaining a decision as to the person to whom the payment or delivery shall be made and of obtaining indemnity for himself:\t\n\n\tProvided  that  where  any  suit  is  pending in which the rights of all parties can properly be decided, no such suit of interpleader shall be instituted.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\n[Omitted]\n89. [Omitted by section 49 and Third Schedule of the Arbitration Act, 1940 (Act No. X of 1940).]",
+      "has_content": true
+    },
+    {
+      "section_id": "97",
+      "title": "Mediation",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nMediation\n61\n[89A.(1) Except in a suit under the \n62\n[Artha Rin Adalat Ain, 2003 (Act No. 8 of 2003)], after filing of written statement, if all the contesting parties are in attendance in the Court in person or by their respective pleaders, \n63\n[the Court shall], by adjourning the hearing, mediate in order to settle the dispute or disputes in the suit, or refer the dispute or disputes in the suit \n64\n[to the concerned Legal Aid Officer appointed under the Legal Aid Act, 2000 (Act No. 6 of 2000), or] to the engaged pleaders of the parties, or to the party or parties, where no pleader or pleaders have been engaged, or to a mediator from the panel as may be prepared by the District Judge under sub-section (10), for undertaking efforts for settlement through mediation. \n65\n[***}\n\n(2) When the reference under sub-section (1) is made through the pleaders, the pleaders shall, by their mutual agreement in consultation with their respective clients, appoint another pleader, not engaged by the parties in the suit, or a retired judge, or a mediator from the panel as may be prepared by the District Judge under sub-section (10), or any other person whom they may seem to be suitable, to act as a mediator for settlement: Provided that, nothing in this sub-section shall be deemed to prohibit appointment of more than one person to act as mediator:\n\nProvided further that, a person holding an office of profit in the service of the Republic shall not be eligible for appointment as mediator.\n\n66\n[(3) While referring a dispute or disputes in the suit for mediation under sub-section (1), it shall be for the pleaders, their respective clients and the mediator to mutually agree on and determine the fees and the procedure to be followed for the purpose of settlement through mediation; and when the Court \n67\n[ or Legal Aid Officer] shall mediate, it shall determine the procedure to be followed, and shall not charge any fee for mediation:\n\nProvided that if the pleaders, their respective clients and the mediator fail to determine the fees, the Court shall fix the fees and the fees so fixed shall be binding upon the parties.]\n\n68\n[(4) Within ten days from the date of reference under sub-section (1), the parties shall inform the Court in writing whom they have appointed as mediator, and if the parties fail to appoint the mediator during this time, the Court shall, within seven days, appoint a mediator from the panel as mentioned in sub-section (10) and the mediation under this section shall be concluded within 60 (sixty) days from the day on which the Court is so informed, \n69\n[or the dispute or disputes are referred to Legal Aid Officer, or a mediator is appointed by the Court], as the case may be, unless the Court of its own motion or upon a joint prayer of the parties, extends the time for a further period of not exceeding 30 (thirty) days.]\n\n70\n[(5) The \n71\n[ Legal Aid Officer or mediator, as the case may be,] shall, without violating the confidentiality of the parties to the mediation proceedings, submit to the court a report of result of the mediation proceedings; and if the result is of compromise of the dispute or disputes in the suit, the terms of such compromise shall be reduced into writing in the form of an agreement, bearing signatures or left thumb impressions of the parties as executants, and signatures of the pleaders, if any, and the \n72\n[ Legal Aid Officer or mediator, as the case may be,] as witnesses; and the Court shall, within seven days from receiving the said report, pass an order or a decree in accordance with relevant provisions of Order XXIII of the Code.]\n\n(6) When the Court itself mediates, it shall \n73\n[prepare a report and pass an order in the manner] to that as stated in sub-section (5).\n\n(7) When the mediation fails to produce any compromise, the Court shall, subject to the provision of sub-section (9), proceed with hearing of the suit from the stage at which the suit stood before the decision to mediate or reference for mediation under sub-section (1), and in accordance with provisions of the Code in a manner as if there had been no decision to mediate or reference for mediation as aforesaid.\n\n(8) The proceedings of mediation under this section shall be confidential and any communication made, evidence adduced, admission, statement or comment made and conversation held between the parties, their pleaders, representatives \n74\n[, Legal Aid Officer] and the mediator, shall be deemed privileged and shall not be referred to and admissible in evidence in any subsequent hearing of the same suit or any other proceeding.\n\n(9) When a mediation initiative led by the Court itself fails to resolve the dispute or disputes in the suit, the same court shall not hear the suit, if the Court continues to be presided by the same judge who led the mediation initiative; and in that instance, the suit shall be heard by another court of competent jurisdiction.\n\n(10) For the purposes of this section, the District Judge shall, in consultation with the President of the District Bar Association, prepare a panel of mediators (to be updated from time to time) consisting of pleaders, retired judges, persons known to be trained in the art of dispute resolution, and such other person or persons, except persons holding office of profit in the service of the Republic, as may be deemed appropriate for the purpose, and shall inform all the Civil Courts under his administrative jurisdiction about the panel:\n\nProvided that, a mediator under this sub-section, shall not act as a mediator between the parties, if he had ever been engaged by either of the parties as a pleader in any suit in any Court.\n\n(11) Notwithstanding anything contained in the \nCourt-fees Act, 1870\n (Act No. VII of 1870), where a dispute or disputes in a suit are settled on compromise under this section, the Court shall issue a certificate directing refund of the court fees paid by the parties in respect of the plaint or written statement; and the parties shall be entitled to such refund within 60 (sixty) days of the issuance of the certificate.\n\n(12) No appeal or revision shall lie against any order or decree passed by the Court in pursuance of settlement between the parties under this section.\n\n(13) Nothing in this section shall be deemed to otherwise limit the option of the parties regarding withdrawal, adjustment and compromise of the suit under Order XXIII of the Code.\n\nExplanation-(1) \"Mediation\" under this section shall mean flexible, informal, non-binding, confidential, non-adversarial and consensual dispute resolution process in which the mediator shall facilitate compromise of disputes in the suit between the parties without directing or dictating the terms of such compromise.\n\n(2) \"Compromise\" under this section shall include also compromise in part of the disputes in the suit.",
+      "has_content": true
+    },
+    {
+      "section_id": "15220",
+      "title": "Arbitration",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nArbitration\n89B.(1) If the parties to a suit, at any stage of the proceeding, apply to the Court for withdrawal of the suit on ground that they will refer the dispute or disputes in the suit to arbitration for settlement, the Court shall allow the application and permit the suit to be withdrawn; and the dispute or disputes, thereafter, shall be settled in accordance with Salish Ain, 2001 (Act No. 1 of 2001) so far as may be applicable:\n\nProvided that, if, for any reason, the arbitration proceeding referred to above does not take place or an arbitral award is not given, the parties shall be entitled to re-institute the suit permitted to be withdrawn under this sub-section.\n\n(2) An application under sub-section (1) shall be deemed to be an arbitration agreement under section 9 of the Salish Ain, 2001 (Act No. 1 of 2001).]",
+      "has_content": true
+    },
+    {
+      "section_id": "25101",
+      "title": "Mediation in Appeal.",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nMediation in Appeal.\n75\n[89C.(1) An Appellate Court \n76\n[shall] mediate in an appeal or refer the appeal for mediation in order to settle the dispute or disputes in that appeal, if the appeal is an appeal from original decree under Order XLI, and is between the same parties who contested in the original suit or the parties who have been substituted for the original contesting parties.\n\n77\n[(2) In mediation under sub-section (1), the provisions of section 89A shall be followed with necessary changes (mutatis mutandis) as may be expedient.]]",
+      "has_content": true
+    },
+    {
+      "section_id": "42206",
+      "title": "Special provisions for mediation",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nSpecial provisions for mediation\n78\n[89D. The Contesting parties to a suit or of an appeal, pending in any Court before the commencement of the Code of Civil Procedure (Amendment) Act, 2012, may by filing an application stating their willingness to settle the dispute through mediation, such suit or appeal shall be disposed of in accordance with the provision of section 89A or 89C.",
+      "has_content": true
+    },
+    {
+      "section_id": "42207",
+      "title": "Application and commencement of the provisions of sections 89A and 89C",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nApplication and commencement of the provisions of sections 89A and 89C\n89E. (1) The provision of section 89A or 89C shall be, applied to such area, and commenced on such date, as the government may, by notification in the official Gazette, fix.\n\n(2) Where any mediation process for settlement of dispute in respect of any suit or appeal is pending under section 89A or 89C before the commencement of the Code of Civil Procedure (Amendment) Act, 2012, such mediation shall continue as if the provision of section 89A or 89C were not amended by the Code of Civil Procedure (Amendment) Act, 2012.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15228",
+      "title": "Power to state case for opinion of Court.",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nPower to state case for opinion of Court.\n90. Where any persons agree in writing to state a case for the opinion of the Court, then the Court shall try and determine the same in the manner prescribed.",
+      "has_content": true
+    },
+    {
+      "section_id": "15241",
+      "title": "Public nuisances",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nPublic nuisances\n91.(1) In the case of a public nuisance the  \n79\n[Attorney General], or two or more persons having obtained the consent in writing of the  \n80\n[Attorney General], may institute a suit, though no special damage has been caused, for a declaration and injunction or for such other relief as may be appropriate to the circumstances of the case.\n\n\t(2) Nothing in this section shall be deemed to limit or otherwise affect any right of suit which may exist independently of its provisions.",
+      "has_content": true
+    },
+    {
+      "section_id": "15242",
+      "title": "Public charities",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nPublic charities\n92.(1) In the case of any alleged breach of any express or constructive trust created for public purposes of a charitable or religious nature, or where the direction of the Court is deemed necessary for the administration of any such trust, the  \n81\n[Attorney General], or two or more persons having an interest in the trust and having obtained the consent in writing of the  \n82\n[Attorney General], may institute a suit, whether contentious or not, in the principal Civil Court of original jurisdiction or in any other Court empowered  in that  behalf by the Government within the local limits of whose jurisdiction the whole or any part of the subject-matter of the trust is situate, to obtain a decree-\t\t\n\n(a)\tremoving any trustee;\t\t\n\n(b)\tappointing a new trustee;\t\t\n\n(c)\tvesting any property in a trustee;\t\t\n\n(d)\tdirecting accounts and inquiries; \t\t\n\n(e)\tdeclaring what proportion of the trust-property or of the interest therein shall be allocated to any particular object of the trust;\t\t\n\n(f)\tauthorising the whole or any part of the trust- property to be let, sold, mortgaged or exchanged;\t\t\n\n(g)\tsetting a scheme; or\t\t\n\n(h)\tgranting such further or other relief as the nature of the case may require.\t\t\n\n\t(2) Save as provided by the Religious Endowments Act, 1863 (XX of 1863), no suit claiming any of the reliefs specified in sub-section (1) shall be instituted in respect of any such trust as is therein referred to except in conformity with the provisions of that sub-section.",
+      "has_content": true
+    },
+    {
+      "section_id": "15243",
+      "title": "Exercise of powers of Attorney General.",
+      "content": "ভাগ এর নাম V SPECIAL PROCEEDINGS\nExercise of powers of Attorney General.\n93. The powers conferred by sections 91 and 92 on the Attorney General may, be, with the previous sanction of the Government, exercised also by the Collector or by such officer as the Government may appoint in this behalf.",
+      "has_content": true
+    },
+    {
+      "section_id": "15266",
+      "title": "Supplemental proceedings",
+      "content": "ভাগ এর নাম VI SUPPLEMENTAL PROCEEDINGS\nSupplemental proceedings\n94. In order to prevent the ends of justice from being defeated the Court may, if it is so prescribed,-\t\t\n\n\t\t(a)    issue a warrant to arrest the defendant and bring him\tbefore the Court to show cause why he should not give security for his appearance, and if he fails to comply with any order for security commit him to the civil prison;\t\t\n\n(b)\tdirect the defendant to furnish security to produce any property belonging to him and to place the same at the disposal of the Court or order the attachment of any property;\t\t\n\n(c)\tgrant a temporary injunction and in case of disobedience commit the person guilty thereof to the civil prison and order that his property be attached and sold;\t\t\n\n(d)\tappoint a receiver of any property and enforce the performance of his duties by attaching and selling his property;\t\t\n\n(e)\tmake such other interlocutory orders as may appear to the Court to be just and convenient.",
+      "has_content": true
+    },
+    {
+      "section_id": "54567",
+      "title": "Direction in execution of orders, etc",
+      "content": "ভাগ এর নাম VI SUPPLEMENTAL PROCEEDINGS\nDirection in execution of orders, etc\n83\n[94A.  For the purpose of execution of any decree or order, the Court may direct the executive authorities, including law enforcement agencies, to assist any person designated by it and to submit compliance report within the time specified by it.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15267",
+      "title": "Compensation for obtaining arrest, attachment or injunction on insufficient grounds.",
+      "content": "ভাগ এর নাম VI SUPPLEMENTAL PROCEEDINGS\nCompensation for obtaining arrest, attachment or injunction on insufficient grounds.\n95.(1) Where, in any suit in which an arrest or attachment has been effected or a temporary injunction granted under the last proceeding section,-\t\n\n(a)\tit appears to the Court that such arrest, attachment or injunction was applied for on insufficient grounds, or\t\n\n(b)\tthe suit of the plaintiff fails and it appears to the Court that there was no reasonable or probable ground for instituting the same,\t\n\nthe defendant may apply to the Court, and the Court may, upon such application, award against the plaintiff by its order such amount, not exceeding  \n84\n[ten thousand] Taka, as it deems a reasonable compensation to the defendant for the expense or injury caused to him:\t\n\n\tProvided that a Court shall not award, under this section, an amount exceeding the limits of its pecuniary jurisdiction.\t\n\n\t(2) An order determining any such application shall bar any suit for compensation in respect of such arrest, attachment or injunction.",
+      "has_content": true
+    },
+    {
+      "section_id": "15275",
+      "title": "Appeal from original decree.",
+      "content": "ভাগ এর নাম VII APPEALS\nAppeal from original decree.\n96.(1) Save where otherwise expressly provided in the body of this Code or by any other law for the time being in force, an appeal shall lie from every decree passed by any Court exercising original jurisdiction to the Court authorised to hear appeals from the decisions of such Court.\n\n(2) An appeal may lie from an original decree passed ex parte.\n\n(3) No appeal shall lie from a decree passed by the Court with the consent of parties.",
+      "has_content": true
+    },
+    {
+      "section_id": "15276",
+      "title": "Appeal from final decree where no appeal from preliminary decree.",
+      "content": "ভাগ এর নাম VII APPEALS\nAppeal from final decree where no appeal from preliminary decree.\n97. Where any party aggrieved by a preliminary decree passed after the commencement of this Code does not appeal from such decree, he shall be precluded from disputing its correctness in any appeal which may be preferred from the final decree.",
+      "has_content": true
+    },
+    {
+      "section_id": "15277",
+      "title": "Decision where appeal heard by two or more Judges.",
+      "content": "ভাগ এর নাম VII APPEALS\nDecision where appeal heard by two or more Judges.\n98.(1) Where an appeal is heard by a Bench of two or more Judges, the appeal shall be decided in accordance with the opinion of such Judges or of the majority (if any) of such Judges.\n\n\t(2) Where there is no such majority which concurs in a judgment varying or reversing the decree appealed from, such decree shall be confirmed:\n\n\tProvided that where the Bench hearing the appeal is composed of two Judges belonging to a Court consisting of more than two Judges, and the Judges composing the Bench differ in opinion on a point of law, they may state the point of law upon which they differ and the appeal shall then be heard upon that point only by one or more of the other Judges, and such point shall be decided according to the opinion of the majority (if any) of the Judges who have heard the appeal, including those who first heard it.\n\n (3) \tNothing in this section shall be deemed to alter or otherwise affect any provision of the letters patent of High Court Division.",
+      "has_content": true
+    },
+    {
+      "section_id": "15278",
+      "title": "No decree to be reversed or modified for error or irregularity not affecting merits or jurisdiction.",
+      "content": "ভাগ এর নাম VII APPEALS\nNo decree to be reversed or modified for error or irregularity not affecting merits or jurisdiction.\n99. \tNo decree shall be reserved or substantially varied, nor shall any case be remanded, in appeal on account of any misjoinder of parties or causes of action or any error, defect or irregularity in any proceedings in the suit, not affecting the merits of the case or the jurisdiction of the Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম VII APPEALS\n[Omitted]\n100-103. [Omitted by section 2 and Schedule of the \nLaw Reforms Ordinance, 1978\n (Ordinance No. XLIX of 1978).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15306",
+      "title": "Orders from which appeal lies.",
+      "content": "ভাগ এর নাম VII APPEALS\nOrders from which appeal lies.\n104.(1) An appeal shall lie from the following orders, and save as otherwise expressly provided in the body of this Code or by any law for the time being in force, from no other orders:\n\n \n85\n[* * *]\n\n \n86\n[(ff)\tan order under section 35A;]\n\n(g)\tan order under section 95;\n\n(h)\tan order under any of the provisions of this Code imposing a fine or directing the arrest or detention in the civil prison of any person except where such arrest or detention is in execution of a decree;\n\n(i)\tany order made under rules from which an appeal is expressly allowed by rules:\n\n\tProvided that no appeal shall lie against any order specified in clause (ff) save on the ground that no order, or an order for the payment of a less amount, ought to have been made.\n\n\t(2) No appeal shall lie from any order passed in appeal under this section.",
+      "has_content": true
+    },
+    {
+      "section_id": "15307",
+      "title": "Other orders",
+      "content": "ভাগ এর নাম VII APPEALS\nOther orders\n105.(1) Save as otherwise expressly provided, no appeal shall lie from any order made by a Court in the exercise of its original or appellate jurisdiction; but, where a decree is appealed from, any error, defect or irregularity in any order, affecting the decision of the case, may be set forth as a ground of objection in the memorandum of appeal.\n\n\t(2) Notwithstanding anything contained in sub-section (1), where any party aggrieved by an order of remand made after the commencement of this Code from which an appeal lies does not appeal therefrom, he shall thereafter be precluded from disputing its correctness.",
+      "has_content": true
+    },
+    {
+      "section_id": "15308",
+      "title": "What Courts to hear appeals.",
+      "content": "ভাগ এর নাম VII APPEALS\nWhat Courts to hear appeals.\n106. Where an appeal from any order is allowed it shall lie to the Court to which an appeal would lie from the decree in the suit in which such order was made, or where such order is made by a Court not being the High Court Division in the exercise of appellate jurisdiction, then to the High Court Division.",
+      "has_content": true
+    },
+    {
+      "section_id": "15318",
+      "title": "Powers of Appellate Court.",
+      "content": "ভাগ এর নাম VII APPEALS\nPowers of Appellate Court.\n107. (1) Subject to such conditions and limitations as may be prescribed, an Appellate Court shall have power-\t\n\n(a)\tto determine a case finally;\t\n\n(b)\tto remand a case;\t\n\n(c)\tto frame issues and refer them for trial;\t\n\n(d)\tto take additional evidence or to require such evidence to be taken.\t\n\n\t(2) Subject as aforesaid, the appellate Court shall have the same powers and shall perform as nearly as may be the same duties as are conferred and imposed by this Code on Courts of original jurisdiction in respect of suits instituted therein.",
+      "has_content": true
+    },
+    {
+      "section_id": "15319",
+      "title": "Procedure in appeals from appellate decrees and orders.",
+      "content": "ভাগ এর নাম VII APPEALS\nProcedure in appeals from appellate decrees and orders.\n108. The provisions of this Part relating to appeals from original decrees shall, so far as may be, apply to appeals-\n\n(a)\tfrom appellate decrees, and\n\n(b)\tfrom orders made under this Code or under any special  \n87\n[* * *] law in which a different procedure is not provided.",
+      "has_content": true
+    },
+    {
+      "section_id": "15340",
+      "title": "When appeals lie to the Supreme Court.",
+      "content": "ভাগ এর নাম VII APPEALS\nWhen appeals lie to the Supreme Court.\n109. Subject to such rules as may, from time to time, be made by the Supreme Court regarding appeals from the Courts of Bangladesh, and to the provisions hereinafter contained, an appeal shall lie to the  \n88\n[Appellate Division]\n\n (a)\tfrom any Judgment, decree or final order passed on appeal by the High Court Division or by any other Court of final appellate jurisdiction;\n\n(b)\tfrom any Judgment, decree or final order passed by the High Court Division in the exercise of original civil jurisdiction; and\n\n(c)\tfrom any Judgment, decree or final order, when the case, as hereinafter provided, is certified to be a fit one for appeal to the  \n89\n[Appellate Division].",
+      "has_content": true
+    },
+    {
+      "section_id": "15341",
+      "title": "Value of subject-matter.",
+      "content": "ভাগ এর নাম VII APPEALS\nValue of subject-matter.\n110.  In each of the cases mentioned in clauses (a) and (b) of section 109, the amount or value of the subject-matter of the suit in the Court of first instance must be twenty thousand Taka or upwards, and the amount or value of the subject-matter of the suit in the Court of first instance must be twenty thousand Taka or upwards, and the amount or value of the subject-matter in dispute on appeal to the  \n90\n[Appellate Division] must be the same sum or upwards, \t\n\n\tor the Judgment, decree or final order must involve, directly or indirectly, some claim or question to or respecting property of like amount or value,\t\n\n\tand where the Judgment, decree or final order appealed from affirms the decision of the Court immediately below the Court passing such Judgment, decree or final order, the appeal must involve some substantial question of law.",
+      "has_content": true
+    },
+    {
+      "section_id": "15342",
+      "title": "Bar of certain appeals.",
+      "content": "ভাগ এর নাম VII APPEALS\nBar of certain appeals.\n111. Notwithstanding anything contained in section 109, no appeal shall lie to the  \n91\n[Appellate Division]-\n\n(a)\tfrom the decree or order of one Judge of the High Court Division, or of one Judge of a Division Court, or of two or more Judges of High Court Division, or of a Division Court constituted by two or more Judges of High Court Division, where such Judges are equally divided in opinion and do not amount in number to a majority of the whole of the Judges of the High Court Division at the time being; or\n\n \n92\n[* * *]",
+      "has_content": true
+    },
+    {
+      "section_id": "15343",
+      "title": "111A\t[Omitted]",
+      "content": "ভাগ এর নাম VII APPEALS\n111A\t[Omitted]\n111A. [Omitted by section 2 of the Federal Court Act, 1941 (Act No. XXI of 1941).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15344",
+      "title": "Savings",
+      "content": "ভাগ এর নাম VII APPEALS\nSavings\n112.(1) Nothing contained in this Code shall be deemed-\t\n\n(a)\tto affect the powers of the  \n93\n[Appellate Division under article 103 of the Constitution of the People's Republic of Bangladesh] or any other provision of that Constitution; or\t\n\n(b)\tto interfere with any rules made by the Supreme Court, and for the time being in force, for the presentation of appeals  \n94\n[to the Appellate Division], or their conduct  \n95\n[before that Division].\t\n\n\t(2) Nothing herein contained applies to any matter of criminal or admiralty or vice-admiralty jurisdiction, or to appeals from orders and decrees of Prize Courts.",
+      "has_content": true
+    },
+    {
+      "section_id": "15354",
+      "title": "Reference of High Court Division.",
+      "content": "ভাগ এর নাম VIII REFERENCE, REVIEW AND REVISION\nReference of High Court Division.\n113. Subject to such conditions and limitations as may be prescribed, any Court may state a case and refer the same for the opinion of the High Court Division, and the High Court Division may make such order thereon as it thinks fit.",
+      "has_content": true
+    },
+    {
+      "section_id": "15355",
+      "title": "Review",
+      "content": "ভাগ এর নাম VIII REFERENCE, REVIEW AND REVISION\nReview\n114. Subject as aforesaid, any person considering himself aggrieved-\t\t\t\n\n(a)\tby a decree or order from which an appeal is allowed by this Code, but from which no appeal has been preferred,\t\t\t\n\n(b)\tby a decree or order from which no appeal is allowed by this Code, or\t\t\t\n\n(c)\tby a decision on a reference from a Court of Small Causes\t\t\t\n\n\tmay apply for a view of judgment to the Court which passed the decree or made the order, and the Court may make such order thereon as it thinks fit.",
+      "has_content": true
+    },
+    {
+      "section_id": "15356",
+      "title": "Revision",
+      "content": "ভাগ এর নাম VIII REFERENCE, REVIEW AND REVISION\nRevision\n96\n[115.(1) The High Court Division may, on the application of any party aggrieved, call for the record of any suit or proceedings, in which a decree or an order has been passed by a Court of District Judge or Additional District Judge, or a decree has been passed by a Court of Joint District Judge, Senior Assistant Judge or Assistant Judge, from which no appeal lies; and if such Court appears to have committed any error of law resulting in an error in such decree or order occasioning failure of justice, the High Court Division may, revise such decree or order and, make such order in the suit or proceedings, as it thinks fit.\n\n\t(2) The Court of District Judge may, on the application of any party aggrieved, call for the record of any suit or proceeding, in which an order has been passed by a Court of Joint District Judge, Senior Assistant Judge or Assistant Judge, from which no appeals lies; and if such Court appears to have committed any error of law resulting in an error in such order occasioning failure of justice, the Court of District Judge may, revise such order and, make such order as it thinks fit.\n\n\t(3) A Court of Additional District Judge shall have all the powers of the District Judge under sub-section (2) in respect of revision case which may be transferred to it by the District Judge.\n\n(4) An application to the High Court Division for revision of an order of the District Judge or, Additional District Judge, as the case may be, made under sub-section (2) or (3) shall lie, where the High Court Division grants leave for revision on an \t(4) An application to the High Court Division for revision of an order of the District Judge or, Additional District Judge, as the case may be, made under sub-section (2) or (3) shall lie, where the High Court Division grants leave for revision on an error of an important question of law resulting in erroneous decision occasioning failure of justice, and the High Court Division may make such order in the suit or proceeding as it thinks fit.\n\n\t(5) Notwithstanding the substitution of this section, any proceeding commenced and pending under section 115 prior to such substitution shall be disposed of in such manner as if section 115 has not been substituted.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15370",
+      "title": "Part to apply only to certain High Court Division.",
+      "content": "ভাগ এর নাম IX SPECIAL PROVISIONS RELATING TO HIGH COURT DIVISION\nPart to apply only to certain High Court Division.\n116. This Part applies only to High Court Division.",
+      "has_content": true
+    },
+    {
+      "section_id": "15371",
+      "title": "Application of Code to High Court Division.",
+      "content": "ভাগ এর নাম IX SPECIAL PROVISIONS RELATING TO HIGH COURT DIVISION\nApplication of Code to High Court Division.\n117. Save as provided in this Part or in Part X or in rules, the provisions of this Code shall apply to High Court Division.",
+      "has_content": true
+    },
+    {
+      "section_id": "15372",
+      "title": "Execution of decree before ascertainment of costs.",
+      "content": "ভাগ এর নাম IX SPECIAL PROVISIONS RELATING TO HIGH COURT DIVISION\nExecution of decree before ascertainment of costs.\n118. Where any High Court Division considers it necessary that a decree passed in the exercise of its original civil jurisdiction should be executed before the amount of the costs incurred in the suit can be ascertained by taxation, the Court may order that the decree shall be executed forthwith, except as to so much thereof as relates to the costs;\n\n\tand, as to so much thereof as relates to the costs, that the decree may be executed as soon as the amount of the costs shall be ascertained by taxation.",
+      "has_content": true
+    },
+    {
+      "section_id": "15373",
+      "title": "Unauthorised persons not to Address Court.",
+      "content": "ভাগ এর নাম IX SPECIAL PROVISIONS RELATING TO HIGH COURT DIVISION\nUnauthorised persons not to Address Court.\n119. Nothing in this Code shall be deemed to authorise any person on behalf of another to address the Court in the exercise of its original civil jurisdiction, or to examine witnesses,  except  where  the  Court  shall  have  in the exercise of the power conferred by its charter authorised him so to do, or to interfere with the power of the High Court Division to make rules concerning advocates  \n97\n[* **].",
+      "has_content": true
+    },
+    {
+      "section_id": "15374",
+      "title": "Provisions not applicable to High Court Division in original civil jurisdiction.",
+      "content": "ভাগ এর নাম IX SPECIAL PROVISIONS RELATING TO HIGH COURT DIVISION\nProvisions not applicable to High Court Division in original civil jurisdiction.\n120.(1) The following provisions shall not apply to the High Court Division in the exercise of its original civil jurisdiction, namely, sections 16, 17 and 20.",
+      "has_content": true
+    },
+    {
+      "section_id": "15392",
+      "title": "Effect of rules in First Schedule.",
+      "content": "ভাগ এর নাম X RULES\nEffect of rules in First Schedule.\n121. The rules in the First Schedule shall have effect as if enacted in the body of this Code until annulled or altered in accordance with the provisions of this Part.",
+      "has_content": true
+    },
+    {
+      "section_id": "15393",
+      "title": "Power of Supreme Court to make rules.",
+      "content": "ভাগ এর নাম X RULES\nPower of Supreme Court to make rules.\n98\n[122. The Supreme Court may, from time to time after previous publication, make rules regulating the procedure of each Division of the Supreme Court and the procedure of Civil Courts subject to its Superintendence and may by such rules annul, alter or add to all or any of the rules in the First Schedule.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15394",
+      "title": "Constitution of Rule Committees.",
+      "content": "ভাগ এর নাম X RULES\nConstitution of Rule Committees.\n123.(1) A Committee, to be called the Rule Committee, shall be constituted  \n99\n[for the purpose] referred to in section 122.\t\n\n \n100\n[(2) Such Committee shall consist of the following persons, namely:-\t\n\n(a)\tthree Judges of the Supreme Court, one of whom at least has served as a District Judge for three years;\t\n\n(b)\ttwo advocates parctising in that Court; and\t\n\n(c)\ta Judge of a Civil Court subordinate to the High Court Division.]\t\n\n\t(3)\tThe members of   \n101\n[* * *] such Committee shall be appointed by the Chief Justice, who shall also nominate one of their number to be president:\t\n\n\tProvided that, if the Chief Justice elects to be himself a member of  \n102\n[the Committee], the number of other Judges appointed to be members shall be two, and the Chief Justice shall be the President of the Committee.\t\n\n\t(4) Each member of  \n103\n[such committee] shall hold office for such period as may be prescribed by the Chief Justice in this behalf; and whenever any member retires, resigns, dies  \n104\n[* * *] or becomes incapable of acting as a member of the Committee, the said Chief Justice may appoint another person to be a member in his stead.\t\n\n\t(5) There shall be a Secretary to  \n105\n[* * *] such Committee, who shall be appointed by the Chief Justice and shall receive such remuneration as may be provided in this behalf by the Government.",
+      "has_content": true
+    },
+    {
+      "section_id": "15395",
+      "title": "Committee to report to Supreme Court.",
+      "content": "ভাগ এর নাম X RULES\nCommittee to report to Supreme Court.\n124.  \n106\n[The] Rule Committee shall make a report to the  \n107\n[Supreme Court]  \n108\n[* **] on any proposal to annul, alter or add to the rules in the First Schedule or to make new rules, and before making any rules under section 122 the  [Supreme Court] shall take such report into consideration.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম X RULES\n[Omitted]\n125. [Omitted by section 3 and 2nd Schedule of the Central Laws (Statute Reform) Ordinance, 1960 (Ordinance No. XXI of 1960).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15397",
+      "title": "Rules to be subject to approval.",
+      "content": "ভাগ এর নাম X RULES\nRules to be subject to approval.\n109\n[126. Rules made under the foregoing provisions shall be subject to the previous approval of the President.].",
+      "has_content": true
+    },
+    {
+      "section_id": "15398",
+      "title": "Publication of rules.",
+      "content": "ভাগ এর নাম X RULES\nPublication of rules.\n127. Rules so made and approved shall be published in the official Gazette, and shall from the date of publication or from such other date as may be specified have the same force and effect  \n110\n[* * *] as if they had been contained in the First Schedule.",
+      "has_content": true
+    },
+    {
+      "section_id": "15399",
+      "title": "Matters for which rules may provide.",
+      "content": "ভাগ এর নাম X RULES\nMatters for which rules may provide.\n128.(1) Such rules shall be not inconsistent with the provisions in the body of this Code, but, subject thereto, may provide for any matters relating to the procedure of Civil Courts.\n\n(2) In particular, and without prejudice to the generality of the powers conferred by sub-section (1), such rules may provide for all or any of the following matters, namely;-\n\n(a) the service of summonses, notices and other processes by post or in any other manner either generally or in any specified areas, and the proof of such service;\n\n(b) the maintenance and custody, while under attachment, of live-stock and other movable property, the fees payable for such maintenance and custody, the sale of such live-stock and property, and the proceeds of such sale;\n\n(c) procedure in suits by way of counterclaim, and the valuation of such suits for the purposes of jurisdiction;\n\n(d) procedure in garnishee and charging orders either in addition to, or in substitution for, the attachment and sale of debts;\n\n(e) procedure where the defendant claims to be entitled to contribution or indemnity over against any person whether a party to the suit or not;\n\n(f) summary procedure-\n\n(i) in suits in which the plaintiff seeks only to recover a debt or liquidated demand in money payable by the defendant, with or without interest, arising-\n\non a contract express or implied; or\n\non an enactment where the sum sought to be recovered is a fixed sum of money or in the nature of a debt other than a penalty; or\n\non a guarantee, where the claim against the principal is in respect of a debt or a liquidated demand only; or\n\non a trust; or\n\n.\n\n(ii) in suits for the recovery of immovable property, with or without a claim for rent or mesne profits, by a landlord against a tenant whose term has expired or has been duly determined by notice to quit, or has become liable to forfeiture for non-payment of rent, or against persons claiming under such tenant;\n\n(g) procedure by way of originating summons;\n\n(h) consolidation of suits, appeals and other proceedings;\n\n(i) delegation to any Registrar, Prothonotary or master or other official of the Court of any judicial, quasi-judicial and non-judicial duties; and\n\n(j) all forms, registers, books, entries and accounts which may be necessary or desirable for the transaction of the business of Civil Courts.",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম X RULES\n[Omitted]\n129.\t[Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম X RULES\n[Omitted]\n130. [Omitted by Article 2 and Schedule of the Central Laws (Adaptation) Order, 1961.]",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম X RULES\n[Omitted]\n131. [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15427",
+      "title": "Exemption of certain women from personal appearance.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nExemption of certain women from personal appearance.\n132.(1) Women who, according to the customs and manners of the country, ought not to be compelled to appear in public shall be exempt from personal appearance in Court.\n\n\t(2) Nothing herein contained shall be deemed to exempt such women from arrest in execution of civil process in any case in which the arrest of women is not prohibited by this Code.",
+      "has_content": true
+    },
+    {
+      "section_id": "15428",
+      "title": "Exemption of other persons.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nExemption of other persons.\n133.(1) The Government may, by notification in the official Gazette, exempt from personal appearance in Court any person whose rank, in the opinion of  \n111\n[the Government], entitles him to the privilege of exemption.\n\n\t(2) The names and residences of the persons so exempted shall, from time to time, be forwarded to the High Court Division by the Government and a list of such persons shall be kept in such Court, and a list of such persons as reside within the local limits of the jurisdiction of each Court subordinate to the High Court Division shall be kept in such subordinate Court.\n\n\t(3) Where any person so exempted claims the privilege of such exemption, and it is consequently necessary to examine him by commission, he shall pay the costs of that commission, unless the party requiring his evidence pays such costs.",
+      "has_content": true
+    },
+    {
+      "section_id": "15429",
+      "title": "Arrest other than in execution of decree.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nArrest other than in execution of decree.\n134. The provisions of sections 55, 57 and 59 shall apply, so far as may be, to all persons arrested under this Code.",
+      "has_content": true
+    },
+    {
+      "section_id": "15430",
+      "title": "Exemption from arrest under civil process.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nExemption from arrest under civil process.\n135.(1) No Judge, Magistrate or other judicial officer shall be liable to arrest under civil process while going to, presiding in, or returning from, his Court.\n\n\t(2) Where any matter is pending before a tribunal having jurisdiction therein, or believing in good faith that it has such jurisdiction, the parties thereto, their pleaders, mukhtars, revenue-agents and recognised agents, and their witnesses acting in obedience to a summons, shall be exempt from arrest under civil process other than process issued by such tribunal for contempt of Court while going to or attending such tribunal for the purpose of such matter, and while returning from such tribunal.\n\n\t(3) Nothing in sub-section (2) shall enable a judgment-debtor to claim exemption from arrest under an order for immediate execution or where such judgment-debtor attends to show cause why he should not be committed to prison in execution of a decree.",
+      "has_content": true
+    },
+    {
+      "section_id": "15431",
+      "title": "Exemption of members of legislative bodies from arrest and detention under civil process.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nExemption of members of legislative bodies from arrest and detention under civil process.\n112\n[135A.(1) No person shall be liable to arrest or detention in prison under civil process-\t\n\n(a)  if he is a member of  \n113\n[Parliament] during the continuance of any meeting of  \n114\n[Parliament];\t\n\n(b)\tif he is a member of any committee of  \n115\n[Parliament], during the continuance of any meeting of such committee;\t\n\nand during the fourteen days before and after such meeting or sitting.\t\n\n\t(2) A person released from detention under sub-section (1) shall, subject to the provisions of the said sub-section, be liable to re-arrest and to the further detention to which he would have been liable if he had not been released under the provisions of sub-section (1).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15432",
+      "title": "Procedure where person to be arrested or property to be attached is outside district.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nProcedure where person to be arrested or property to be attached is outside district.\n136.(1) Where an application is made that any person shall be arrested or that any property shall be attached under any provision of this Code not relating to the execution of decrees, and such person resides or such property is situate outside the local limits of the jurisdiction of the Court to which the application is made, the Court may, in its discretion, issue a warrant of arrest or make an order of attachment, and send to the District Court within the local limits of whose jurisdiction such person or property resides or is situate a copy of the warrant or order, together with the probable amount of the costs of the arrest or attachment.\t\n\n\t(2) The District Court shall, on receipt of such copy and amount, cause the arrest or attachment to be made by its own officers, or by a Court subordinate to itself, and shall inform the Court which issued or made such warrant or order of the arrest or attachment.\t\n\n\t(3) The Court making an arrest under this section shall send the person arrested to the Court by which the warrant of arrest was issued, unless he shows cause to the satisfaction of the former Court why he should not be sent to the latter Court, or unless he furnishes sufficient security for his appearance before the latter Court or for satisfying any decree that may be passed against him by that Court, in either of which cases the Court making the arrest shall release him.",
+      "has_content": true
+    },
+    {
+      "section_id": "15433",
+      "title": "Language of subordinate Courts.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nLanguage of subordinate Courts.\n137.(1) The language which, on the commencement of this Code, is the language of any Court subordinate to the High Court Division shall continue to be the language of such subordinate Court until the Government otherwise directs.\n\n\t(2) The Government may declare what shall be the language of any such Court and in what character applications to and proceedings in such Courts shall be written.\n\n\t(3) Where this Code requires or allows anything other than the recording of evidence to be done in writing in any such Court, such writing may be in English; but if any party or his pleader is unacquainted with English a translation into the language of the Court shall, at his request, be supplied to him; and the Court shall make such order as it thinks fit in respect of the payment of the costs of such translation.",
+      "has_content": true
+    },
+    {
+      "section_id": "15434",
+      "title": "Power of High Court Division to require evidence to be recorded in English.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nPower of High Court Division to require evidence to be recorded in English.\n138.(1) The High Court Division may, by notification in the official Gazette, direct with respect to any Judge specified in the notification, or falling under a description set forth therein, that evidence in cases in which an appeal is allowed shall be taken down by him in the English language and in manner prescribed.\n\n\t(2) Where a Judge is prevented by any sufficient reason from complying with a direction under sub-section (1), he shall record the reason and cause the evidence to be taken down in writing from his dictation in open Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "15435",
+      "title": "Oath on affidavit by whom to be administered.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nOath on affidavit by whom to be administered.\n139. In the case of any affidavit under this Code-\t\n\n\t(a)\tany Court or Magistrate, or\t\n\n(b)\tany officer or other person whom  \n116\n[the Supreme Court]  may appoint in this behalf, or\t\n\n(c)\tany officer appointed by any other Court which the Government has generally or specially empowered in this behalf,\t\n\nmay administer the oath to the deponent.",
+      "has_content": true
+    },
+    {
+      "section_id": "15436",
+      "title": "Assessors in causes of salvage, etc.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nAssessors in causes of salvage, etc.\n140.(1) In any Admiralty or Vice-Admiralty cause of salvage, towage or collision, the Court, whether it be exercising its original or its appellate jurisdiction, may, if it thinks fit, and shall upon request of either party to such cause, summon to its assistance, in such manner as it may direct or as may be prescribed, two competent assessors; and such assessors shall attend and assist accordingly.\n\n\t(2) Every such assessor shall receive such fees for his attendance, to be paid by such of the parties as the Court may direct or as may be prescribed.",
+      "has_content": true
+    },
+    {
+      "section_id": "15437",
+      "title": "Miscellaneous proceedings.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nMiscellaneous proceedings.\n141. The procedure provided in this Code in regard to suits shall be followed, as far as it can be made applicable, in all proceedings in any Court of civil jurisdiction.",
+      "has_content": true
+    },
+    {
+      "section_id": "15438",
+      "title": "Orders and notices to be in writing.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nOrders and notices to be in writing.\n142. All orders and notices served on or given to any person under the provisions of this Code shall be in writing.",
+      "has_content": true
+    },
+    {
+      "section_id": "15439",
+      "title": "Postage",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nPostage\n143. Postage, where chargeable on a notice, summons or letter issued under this Code and forwarded by post, and the fee for registering the same, shall be paid within a time to be fixed before the communication is made:\n\n\tProvided that the Government may remit such postage, or fee, or both, or may prescribed a scale of court-fees to be levied in lieu thereof.",
+      "has_content": true
+    },
+    {
+      "section_id": "15440",
+      "title": "Application for restitution.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nApplication for restitution.\n144.(1) Where and in so far as a decree is varied or reversed, the Court of first instance shall, on the application of any party entitled to any benefit by way of restitution or otherwise, cause such restitution to be made as will, so far as may be, place the parties in the position which they would have occupied but for such decree or such part thereof as has been varied or reversed; and, for this purpose, the Court may make any orders, including orders for the refund of costs and for the payment of interest, damages, compensation and mesne profits, which are properly consequential on such variation or reversal.\t\t\n\n(2) No suit shall be instituted for the purpose of obtaining any restitution or other relief which could be obtained by application under sub-section (1).",
+      "has_content": true
+    },
+    {
+      "section_id": "15441",
+      "title": "Enforcement of liability of surety.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nEnforcement of liability of surety.\n145. Where any person has become liable as surety-\t\n\n(a)\tfor the performance of any decree or any part thereof, or\t\n\n(b)\tfor the restitution of any property taken in execution of a decree, or\t\n\n(c) \tfor the payment of any money, or for the fulfilment of any condition imposed on any person, under an order of the Court in any suit or in any proceedings consequent thereon,\t\n\nthe decree or order may be executed against him, to the extent to which he has rendered himself personally liable, in the manner herein provided for the execution of decrees, and such person shall, for the purposes of appeal, be deemed a party within the meaning of section 47:\t\n\n\tProvided that such notice as the Court in each case thinks sufficient has been given to the surety.",
+      "has_content": true
+    },
+    {
+      "section_id": "15442",
+      "title": "Proceedings by or against representatives.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nProceedings by or against representatives.\n146. Save as otherwise provided by this Code or by any law for the time being in force, where any proceeding may be taken or application made by or against any person, then the proceeding may be taken or the application may be made by or against any person claiming under him.",
+      "has_content": true
+    },
+    {
+      "section_id": "15443",
+      "title": "Consent or agreement by persons under disability.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nConsent or agreement by persons under disability.\n147. In all suits to which any person under disability is a party, any consent or agreement, as to any proceeding shall, if given or made with the express leave of the Court by the next friend or guardian for the suit, have the same force and effect as if such person, were under no disability and had given such consent or made such agreement.",
+      "has_content": true
+    },
+    {
+      "section_id": "15444",
+      "title": "Enlargement of time.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nEnlargement of time.\n148. Where any period is fixed or granted by the Court for the doing of any act prescribed or allowed by this Code, the Court may, in its discretion, from time to time, enlarge such period, even though the period originally fixed or granted may have expired.",
+      "has_content": true
+    },
+    {
+      "section_id": "15445",
+      "title": "Power to make up deficiency of court-fees.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nPower to make up deficiency of court-fees.\n149. Where the whole or any part of any fee prescribed for any document by the law for the time being in force relating to court-fees has not been paid, the Court may, in its discretion, at any stage, allow the person, by whom such fee is payable, to pay the whole or part, as the case may be, of such court-fee; and upon such payment the document, in respect of which such fee is payable, shall have the same force and effect as if such fee had been paid in the first instance.",
+      "has_content": true
+    },
+    {
+      "section_id": "15446",
+      "title": "Transfer of business.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nTransfer of business.\n150. Save as otherwise provided, where the business of any Court is transferred to any other Court, the Court to which the business is so transferred shall have the same powers and shall perform the same duties as those respectively conferred and imposed by or under this Code upon the Court from which the business was so transferred.",
+      "has_content": true
+    },
+    {
+      "section_id": "15447",
+      "title": "Saving of inherent powers of Court.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nSaving of inherent powers of Court.\n151. Nothing in this Code shall be deemed to limit or otherwise affect the inherent power of the Court to make such orders as may be necessary for the ends of justice or to prevent abuse of the process of the Court.",
+      "has_content": true
+    },
+    {
+      "section_id": "15448",
+      "title": "Amendment of judgments, decrees or orders.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nAmendment of judgments, decrees or orders.\n152. Clerical or arithmetical mistakes in judgments, decrees or orders or errors arising therein from any accidental slip or omission may at any time be corrected by the Court either of its own motion or on the application of any of the parties.",
+      "has_content": true
+    },
+    {
+      "section_id": "15449",
+      "title": "General power to amend.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nGeneral power to amend.\n153. The Court may at any time, and on such terms as to costs or otherwise as it thinks fit, amend any defect or error in any proceeding in a suit; and all necessary amendments shall be made for the purpose of determining the real question or issue raised by or depending on such proceeding.",
+      "has_content": true
+    },
+    {
+      "section_id": "24402",
+      "title": "Saving of present right of appeal.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nSaving of present right of appeal.\n154. Nothing in this Code shall affect any present right of appeal which shall have accrued to any party at its commencement.",
+      "has_content": true
+    },
+    {
+      "section_id": "24403",
+      "title": "Amendment of certain Acts.",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\nAmendment of certain Acts.\n155. The enactments mentioned in the Fourth Schedule are hereby amended to the extent specified in the fourth column thereof.",
+      "has_content": true
+    },
+    {
+      "section_id": "24404",
+      "title": "[Repealed]",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\n[Repealed]\n156. [Omitted by section 3 and 2nd Schedule of the Second Repealing and Amending Act, 1914 (Act No. XVII of 1914).]",
+      "has_content": true
+    },
+    {
+      "section_id": "15402",
+      "title": "[Omitted]",
+      "content": "ভাগ এর নাম XI MISCELLANEOUS\n[Omitted]\n157-158. [Omitted by section 3 and 2nd Schedule of the \nBangladesh Laws (Revision And Declaration) Act, 1973\n (Act No. VIII of 1973).]",
+      "has_content": true
+    }
+  ]
+}

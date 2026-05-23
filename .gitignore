@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.log
+scrape_log.txt
+debug_*.html
+debug_*.txt
+*_NEW.json
