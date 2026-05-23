@@ -89,7 +89,7 @@ def get_random_sections(laws, law_key=None, n=5):
 def get_ai_client():
     """Get AI client based on selected provider."""
     provider = st.session_state.get("ai_provider", "Gemini")
-    api_key = st.session_state.get("ai_api_key", "AIzaSyCFSO1tskcFeaAafCDKkpvADjey2Or04CQ")
+    api_key = st.session_state.get("ai_api_key", "")
     model_name = st.session_state.get("ai_model", "gemini-2.0-flash")
     
     cache_key = f"ai_client_{provider}_{api_key[:8]}"
@@ -243,7 +243,7 @@ Generate {n_q} MCQs in Bengali now:"""
 
 def page_law_browser(laws):
     st.markdown("## 📖 আইনের ধারা ব্রাউজার")
-    st.caption("⚠️ এই আইনগুলো ব্রিটিশ আমলে ইংরেজিতে প্রণীত। bdlaws-এ বাংলা অনুবাদ নেই। AI দিয়ে বাংলা ব্যাখ্যা পাবেন।")
+    st.caption("⚠️ এই আইনগুলো ব্রিটিশ আমলে ইংরেজিতে প্রণীত। bdlaws-এ বাংলা অনুবাদ নেই। AI[...]")
     col1, col2 = st.columns([1, 2])
     with col1:
         law_key = st.selectbox("আইন", list(LAW_INFO.keys()),
@@ -315,9 +315,9 @@ def page_search(laws):
 
 def page_analyze(laws):
     st.markdown("## 🧠 আইন বিশ্লেষণ (AI)")
-    st.markdown("যেকোনো আইনি প্রশ্ন জিজ্ঞাসা করুন — AI উত্তর দেবে আইনের ধারা উল্লেখ করে।")
+    st.markdown("যেকোনো আইনি প্রশ্ন জিজ্ঞাসা করুন — AI উত্তর দেবে আইনের ধারা উল্লেখ ক[...]")
     
-    question = st.text_area("আপনার প্রশ্ন লিখুন", placeholder="যেমন: জামিনের শর্তাবলী কী? ধারা ৩০২ এর শাস্তি কত?", height=100)
+    question = st.text_area("আপনার প্রশ্ন লিখুন", placeholder="যেমন: জামিনের শর্তাবলী কী? ধারা ৩০২ এর [...]")
     
     if st.button("🧠 বিশ্লেষণ করুন", type="primary"):
         if not question:
@@ -431,9 +431,8 @@ def main():
         st.session_state["ai_provider"] = provider
         
         # API Key
-        default_key = "AIzaSyCFSO1tskcFeaAafCDKkpvADjey2Or04CQ" if provider == "Gemini" else ""
         api_key = st.text_input("API Key", type="password", 
-            value=st.session_state.get("ai_api_key", default_key),
+            value=st.session_state.get("ai_api_key", ""),
             key="key_input")
         st.session_state["ai_api_key"] = api_key
         
@@ -505,7 +504,7 @@ def main():
     with tab6: page_practice(laws)
     
     st.markdown("---")
-    st.caption("⚠️ শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে। পরীক্ষার প্রস্তুতির জন্য মূল আইন পড়ুন।")
+    st.caption("⚠️ শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে। পরীক্ষার প্রস্তুতির জন্য মূল আ[...]")
 
 if __name__ == "__main__":
     main()
