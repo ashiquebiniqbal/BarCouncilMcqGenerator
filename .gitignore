@@ -6,3 +6,4 @@ scrape_log.txt
 debug_*.html
 debug_*.txt
 *_NEW.json
+.streamlit/secrets.toml

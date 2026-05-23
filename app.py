@@ -1,10 +1,7 @@
 """
-🇧🇩 Bangladesh Bar Council MCQ Generator
-=========================================
-Free Streamlit app for generating Bar Council exam MCQs
-using RAG from authentic bdlaws.minlaw.gov.bd data.
+⚖️ Bangladesh Bar Council MCQ Generator
+Full-featured app with AI MCQ generation, law browsing, analysis.
 """
-
 import streamlit as st
 import json
 import os
@@ -12,9 +9,6 @@ import random
 import re
 from pathlib import Path
 
-# ============================================================
-# PAGE CONFIG
-# ============================================================
 st.set_page_config(
     page_title="বার কাউন্সিল MCQ জেনারেটর",
     page_icon="⚖️",
@@ -22,72 +16,31 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ============================================================
-# DATA LOADING
-# ============================================================
-
 DATA_DIR = Path("data/target_laws")
 
 LAW_INFO = {
-    "penal_code": {
-        "en_file": "penal_code_en.json",
-        "bn_file": "penal_code_bn.json",
-        "title_bn": "দণ্ডবিধি, ১৮৬০",
-        "title_en": "The Penal Code, 1860",
-        "icon": "⚔️",
-        "weight": 15,
-    },
-    "crpc": {
-        "en_file": "crpc_en.json",
-        "bn_file": "crpc_bn.json",
-        "title_bn": "ফৌজদারি কার্যবিধি, ১৮৯৮",
-        "title_en": "Code of Criminal Procedure, 1898",
-        "icon": "🔒",
-        "weight": 25,
-    },
-    "cpc": {
-        "en_file": "cpc_en.json",
-        "bn_file": "cpc_bn.json",
-        "title_bn": "দেওয়ানি কার্যবিধি, ১৯০৮",
-        "title_en": "Code of Civil Procedure, 1908",
-        "icon": "📋",
-        "weight": 25,
-    },
-    "evidence_act": {
-        "en_file": "evidence_act_en.json",
-        "bn_file": "evidence_act_bn.json",
-        "title_bn": "সাক্ষ্য আইন, ১৮৭২",
-        "title_en": "The Evidence Act, 1872",
-        "icon": "🔍",
-        "weight": 15,
-    },
-    "limitation_act": {
-        "en_file": "limitation_act_en.json",
-        "bn_file": "limitation_act_bn.json",
-        "title_bn": "তামাদি আইন, ১৯০৮",
-        "title_en": "The Limitation Act, 1908",
-        "icon": "⏰",
-        "weight": 8,
-    },
-    "specific_relief": {
-        "en_file": "specific_relief_en.json",
-        "bn_file": "specific_relief_bn.json",
-        "title_bn": "সুনির্দিষ্ট প্রতিকার আইন, ১৮৭৭",
-        "title_en": "The Specific Relief Act, 1877",
-        "icon": "🛡️",
-        "weight": 7,
-    },
+    "penal_code": {"en_file": "penal_code_en.json", "bn_file": "penal_code_bn.json",
+        "title_bn": "দণ্ডবিধি, ১৮৬০", "title_en": "The Penal Code, 1860", "icon": "⚔️", "weight": 15},
+    "crpc": {"en_file": "crpc_en.json", "bn_file": "crpc_bn.json",
+        "title_bn": "ফৌজদারি কার্যবিধি, ১৮৯৮", "title_en": "Code of Criminal Procedure, 1898", "icon": "🔒", "weight": 25},
+    "cpc": {"en_file": "cpc_en.json", "bn_file": "cpc_bn.json",
+        "title_bn": "দেওয়ানি কার্যবিধি, ১৯০৮", "title_en": "Code of Civil Procedure, 1908", "icon": "📋", "weight": 25},
+    "evidence_act": {"en_file": "evidence_act_en.json", "bn_file": "evidence_act_bn.json",
+        "title_bn": "সাক্ষ্য আইন, ১৮৭২", "title_en": "The Evidence Act, 1872", "icon": "🔍", "weight": 15},
+    "limitation_act": {"en_file": "limitation_act_en.json", "bn_file": "limitation_act_bn.json",
+        "title_bn": "তামাদি আইন, ১৯০৮", "title_en": "The Limitation Act, 1908", "icon": "⏰", "weight": 8},
+    "specific_relief": {"en_file": "specific_relief_en.json", "bn_file": "specific_relief_bn.json",
+        "title_bn": "সুনির্দিষ্ট প্রতিকার আইন, ১৮৭৭", "title_en": "The Specific Relief Act, 1877", "icon": "🛡️", "weight": 7},
+    "bar_council": {"en_file": "bar_council_order_en.json", "bn_file": "bar_council_order_bn.json",
+        "title_bn": "বার কাউন্সিল আদেশ, ১৯৭২", "title_en": "Legal Practitioners & Bar Council Order, 1972", "icon": "🏛️", "weight": 5},
 }
-
 
 @st.cache_data
 def load_all_laws():
-    """Load all law data from JSON files."""
     laws = {}
     for key, info in LAW_INFO.items():
         en_path = DATA_DIR / info["en_file"]
         bn_path = DATA_DIR / info["bn_file"]
-        
         if en_path.exists() and bn_path.exists():
             with open(en_path, 'r', encoding='utf-8') as f:
                 en_data = json.load(f)
@@ -96,233 +49,141 @@ def load_all_laws():
             laws[key] = {"en": en_data, "bn": bn_data}
     return laws
 
-
-@st.cache_data
-def get_section_index(laws):
-    """Build a searchable index of all sections."""
-    index = []
-    for law_key, law_data in laws.items():
-        for section in law_data["en"]["sections"]:
-            index.append({
-                "law_key": law_key,
-                "law_title": LAW_INFO[law_key]["title_bn"],
-                "section_id": section["section_id"],
-                "title": section["title"],
-                "content": section["content"],
-            })
-    return index
-
-
-# ============================================================
-# MCQ GENERATION (Offline - No API needed)
-# ============================================================
-
 def search_sections(laws, query, law_filter=None, max_results=10):
-    """Simple keyword search across law sections."""
     results = []
     query_lower = query.lower()
-    query_words = query_lower.split()
-    
+    query_words = [w for w in query_lower.split() if len(w) > 2]
     for law_key, law_data in laws.items():
         if law_filter and law_key != law_filter:
             continue
-        
-        for section in law_data["en"]["sections"]:
+        for i, section in enumerate(law_data["en"]["sections"]):
             content = section.get("content", "").lower()
             title = section.get("title", "").lower()
-            
-            # Score based on keyword matches
             score = 0
             for word in query_words:
-                if word in title:
-                    score += 3
-                if word in content:
-                    score += 1
-            
+                if word in title: score += 3
+                if word in content: score += 1
             if score > 0:
+                bn_section = law_data["bn"]["sections"][i] if i < len(law_data["bn"]["sections"]) else {}
                 results.append({
-                    "law_key": law_key,
-                    "law_title": LAW_INFO[law_key]["title_bn"],
-                    "section_id": section["section_id"],
-                    "title": section["title"],
-                    "content": section["content"],
-                    "score": score,
+                    "law_key": law_key, "law_title": LAW_INFO[law_key]["title_bn"],
+                    "title": section["title"], "content_en": section["content"],
+                    "content_bn": bn_section.get("content", ""), "score": score,
                 })
-    
     results.sort(key=lambda x: x["score"], reverse=True)
     return results[:max_results]
 
-
 def get_random_sections(laws, law_key=None, n=5):
-    """Get random sections for MCQ generation."""
     all_sections = []
     for key, law_data in laws.items():
         if law_key and key != law_key:
             continue
-        for section in law_data["en"]["sections"]:
+        for i, section in enumerate(law_data["en"]["sections"]):
             if section.get("has_content") and len(section.get("content", "")) > 50:
-                all_sections.append({
-                    "law_key": key,
-                    "law_title": LAW_INFO[key]["title_bn"],
-                    **section,
-                })
-    
+                bn_sec = law_data["bn"]["sections"][i] if i < len(law_data["bn"]["sections"]) else {}
+                all_sections.append({"law_key": key, "law_title": LAW_INFO[key]["title_bn"],
+                    "title": section["title"], "content_en": section["content"],
+                    "content_bn": bn_sec.get("content", "")})
     return random.sample(all_sections, min(n, len(all_sections)))
 
-
-# ============================================================
-# UI COMPONENTS
-# ============================================================
-
-def render_sidebar(laws):
-    """Render the sidebar with law statistics and filters."""
-    st.sidebar.markdown("## ⚖️ আইন নির্বাচন")
+def get_ai_client():
+    """Get AI client based on selected provider."""
+    provider = st.session_state.get("ai_provider", "Gemini")
+    api_key = st.session_state.get("ai_api_key", "AIzaSyCFSO1tskcFeaAafCDKkpvADjey2Or04CQ")
+    model_name = st.session_state.get("ai_model", "gemini-2.0-flash")
     
-    # Law statistics
-    total_sections = 0
-    for key, info in LAW_INFO.items():
-        if key in laws:
-            n = len(laws[key]["en"]["sections"])
-            total_sections += n
-            st.sidebar.markdown(f"{info['icon']} **{info['title_bn']}** — {n} ধারা")
+    cache_key = f"ai_client_{provider}_{api_key[:8]}"
+    if cache_key in st.session_state:
+        return st.session_state[cache_key]
     
-    st.sidebar.markdown(f"\n---\n**মোট ধারা:** {total_sections}")
-    st.sidebar.markdown(f"**উৎস:** [bdlaws.minlaw.gov.bd](http://bdlaws.minlaw.gov.bd)")
+    try:
+        if provider == "Gemini":
+            from google import genai
+            client = genai.Client(api_key=api_key)
+            st.session_state[cache_key] = ("gemini", client, model_name)
+            return ("gemini", client, model_name)
+        
+        elif provider == "OpenAI / GPT":
+            from openai import OpenAI
+            client = OpenAI(api_key=api_key)
+            st.session_state[cache_key] = ("openai", client, model_name)
+            return ("openai", client, model_name)
+        
+        elif provider == "Claude (Anthropic)":
+            from anthropic import Anthropic
+            client = Anthropic(api_key=api_key)
+            st.session_state[cache_key] = ("claude", client, model_name)
+            return ("claude", client, model_name)
+        
+        elif provider == "OpenRouter (Any Model)":
+            from openai import OpenAI
+            client = OpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1")
+            st.session_state[cache_key] = ("openrouter", client, model_name)
+            return ("openrouter", client, model_name)
+        
+        elif provider == "Custom (OpenAI-compatible)":
+            from openai import OpenAI
+            base_url = st.session_state.get("ai_base_url", "http://localhost:11434/v1")
+            client = OpenAI(api_key=api_key or "none", base_url=base_url)
+            st.session_state[cache_key] = ("custom", client, model_name)
+            return ("custom", client, model_name)
     
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 📊 পরীক্ষার ওজন বিন্যাস")
-    for key, info in LAW_INFO.items():
-        st.sidebar.progress(info["weight"] / 25, text=f"{info['title_bn']}: {info['weight']}%")
-    
+    except Exception as e:
+        st.session_state["ai_error"] = str(e)
+        return None
     return None
 
-
-def render_section_browser(laws):
-    """Section browser tab."""
-    st.markdown("### 📖 আইনের ধারা ব্রাউজার")
+def ai_generate(prompt, system_instruction=""):
+    """Generate text using the configured AI provider."""
+    result = get_ai_client()
+    if not result:
+        return None
     
-    col1, col2 = st.columns([1, 2])
+    provider_type, client, model_name = result
+    full_prompt = f"{system_instruction}\n\n{prompt}" if system_instruction else prompt
     
-    with col1:
-        selected_law = st.selectbox(
-            "আইন নির্বাচন করুন",
-            options=list(LAW_INFO.keys()),
-            format_func=lambda x: f"{LAW_INFO[x]['icon']} {LAW_INFO[x]['title_bn']}",
-        )
-        
-        if selected_law and selected_law in laws:
-            sections = laws[selected_law]["en"]["sections"]
-            section_titles = [f"{s['title'][:60]}" for s in sections]
-            
-            selected_idx = st.selectbox(
-                f"ধারা নির্বাচন ({len(sections)} টি)",
-                options=range(len(sections)),
-                format_func=lambda i: section_titles[i],
+    try:
+        if provider_type == "gemini":
+            from google.genai import types
+            response = client.models.generate_content(
+                model=model_name,
+                contents=full_prompt,
+                config=types.GenerateContentConfig(temperature=0.7, max_output_tokens=4096),
             )
-    
-    with col2:
-        if selected_law and selected_law in laws:
-            section = laws[selected_law]["en"]["sections"][selected_idx]
-            bn_sections = laws[selected_law]["bn"]["sections"]
-            bn_section = bn_sections[selected_idx] if selected_idx < len(bn_sections) else None
-            
-            st.markdown(f"**{LAW_INFO[selected_law]['title_en']}**")
-            st.markdown(f"#### {section['title']}")
-            
-            tab_en, tab_bn = st.tabs(["🇬🇧 English", "🇧🇩 বাংলা"])
-            
-            with tab_en:
-                st.text_area("English Text", section["content"], height=300, disabled=True)
-            
-            with tab_bn:
-                if bn_section:
-                    st.text_area("Bengali Text", bn_section["content"], height=300, disabled=True)
-
-
-def render_search(laws):
-    """Search tab."""
-    st.markdown("### 🔍 আইন অনুসন্ধান")
-    
-    col1, col2 = st.columns([3, 1])
-    with col1:
-        query = st.text_input("অনুসন্ধান করুন (English keywords)", placeholder="e.g., bail, murder, confession, limitation")
-    with col2:
-        law_filter = st.selectbox(
-            "আইন ফিল্টার",
-            options=[None] + list(LAW_INFO.keys()),
-            format_func=lambda x: "সকল আইন" if x is None else LAW_INFO[x]["title_bn"],
-        )
-    
-    if query:
-        results = search_sections(laws, query, law_filter=law_filter)
+            return response.text
         
-        if results:
-            st.success(f"✅ {len(results)} টি ফলাফল পাওয়া গেছে")
-            
-            for i, result in enumerate(results):
-                with st.expander(f"**{result['law_title']}** — {result['title'][:60]}", expanded=(i == 0)):
-                    st.markdown(f"**Section ID:** {result['section_id']}")
-                    st.text_area(f"Content_{i}", result["content"], height=200, disabled=True, key=f"search_{i}")
-        else:
-            st.warning("কোনো ফলাফল পাওয়া যায়নি। অন্য keyword ব্যবহার করুন।")
-
-
-def render_mcq_generator(laws):
-    """MCQ Generator tab - generates context for LLM-based MCQ creation."""
-    st.markdown("### 📝 MCQ জেনারেটর")
-    
-    st.info("💡 এই টুলটি আপনাকে MCQ তৈরির জন্য প্রাসঙ্গিক ধারা প্রদান করে। আপনি এই context ব্যবহার করে ChatGPT/Gemini-তে MCQ তৈরি করতে পারেন।")
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        mcq_law = st.selectbox(
-            "আইন",
-            options=list(LAW_INFO.keys()),
-            format_func=lambda x: f"{LAW_INFO[x]['icon']} {LAW_INFO[x]['title_bn']}",
-            key="mcq_law",
-        )
-    
-    with col2:
-        mcq_topic = st.text_input("বিষয় (Topic)", placeholder="e.g., bail, confession, res judicata")
-    
-    with col3:
-        mcq_difficulty = st.selectbox("কঠিনতা", ["সহজ (Easy)", "মাঝারি (Medium)", "কঠিন (Hard)"])
-    
-    n_questions = st.slider("প্রশ্ন সংখ্যা", 1, 20, 5)
-    
-    if st.button("🎯 MCQ Context তৈরি করুন", type="primary"):
-        if mcq_topic:
-            results = search_sections(laws, mcq_topic, law_filter=mcq_law, max_results=8)
-        else:
-            results = [{"content": s["content"], "title": s["title"], "law_title": LAW_INFO[mcq_law]["title_bn"]} 
-                      for s in get_random_sections(laws, law_key=mcq_law, n=8)]
+        elif provider_type in ("openai", "openrouter", "custom"):
+            messages = []
+            if system_instruction:
+                messages.append({"role": "system", "content": system_instruction})
+            messages.append({"role": "user", "content": prompt})
+            response = client.chat.completions.create(
+                model=model_name, messages=messages, temperature=0.7, max_tokens=4096,
+            )
+            return response.choices[0].message.content
         
-        if results:
-            # Build the prompt
-            context_text = "\n\n---\n\n".join([
-                f"[{r.get('law_title', '')}] {r['title']}\n{r['content']}" 
-                for r in results
-            ])
-            
-            difficulty_map = {
-                "সহজ (Easy)": "easy",
-                "মাঝারি (Medium)": "medium", 
-                "কঠিন (Hard)": "hard",
-            }
-            
-            prompt = f"""You are a Bangladesh Bar Council MCQ examiner. Generate {n_questions} MCQs in Bengali.
+        elif provider_type == "claude":
+            response = client.messages.create(
+                model=model_name, max_tokens=4096, temperature=0.7,
+                system=system_instruction or "",
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return response.content[0].text
+    
+    except Exception as e:
+        return f"❌ Error: {e}"
+
+SYSTEM_PROMPT = """You are a Bangladesh Bar Council legal examiner AI. You generate MCQs in Bengali for the Advocates' Enrolment Examination.
 
 RULES:
-- Use ONLY the law sections provided below
-- Each MCQ must have 4 options (ক, খ, গ, ঘ)
-- Provide correct answer and section-based explanation
-- Difficulty: {difficulty_map.get(mcq_difficulty, 'medium')}
+- Generate MCQs ONLY from the law sections provided in context
 - Use professional Bengali legal terminology
-- NEVER invent sections
+- Each MCQ: 4 options (ক, খ, গ, ঘ), correct answer, section-based explanation
+- NEVER invent sections or legal principles
+- Test technical understanding, exceptions, procedural knowledge
 
-FORMAT for each question:
-### প্রশ্ন [number]:
+FORMAT:
+### প্রশ্ন [N]:
 (Bengali question)
 
 ক. (option)
@@ -330,193 +191,321 @@ FORMAT for each question:
 গ. (option)
 ঘ. (option)
 
-সঠিক উত্তর: (letter)
-ব্যাখ্যা: (section reference + explanation)
-
----
-
-LAW SECTIONS (CONTEXT):
-
-{context_text}
-
-Generate {n_questions} MCQs now:"""
-            
-            st.markdown("---")
-            st.markdown("#### 📋 Generated Prompt (Copy to ChatGPT/Gemini)")
-            st.text_area(
-                "Copy this prompt to your AI assistant",
-                prompt,
-                height=400,
-                key="generated_prompt",
-            )
-            
-            # Copy button
-            st.markdown("**ব্যবহার পদ্ধতি:**")
-            st.markdown("""
-1. উপরের prompt কপি করুন
-2. [ChatGPT](https://chat.openai.com) বা [Gemini](https://gemini.google.com) এ পেস্ট করুন
-3. AI আপনাকে সঠিক MCQ তৈরি করে দেবে
-            """)
-        else:
-            st.warning("প্রাসঙ্গিক ধারা পাওয়া যায়নি। অন্য topic ব্যবহার করুন।")
-
-
-def render_practice_mode(laws):
-    """Practice mode - show random sections for self-study."""
-    st.markdown("### 📚 অনুশীলন মোড")
-    
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        practice_law = st.selectbox(
-            "আইন",
-            options=[None] + list(LAW_INFO.keys()),
-            format_func=lambda x: "সকল আইন (Random)" if x is None else LAW_INFO[x]["title_bn"],
-            key="practice_law",
-        )
-    with col2:
-        n_sections = st.slider("ধারা সংখ্যা", 1, 10, 3, key="practice_n")
-    
-    if st.button("🔄 নতুন ধারা দেখান", key="practice_btn"):
-        sections = get_random_sections(laws, law_key=practice_law, n=n_sections)
-        
-        for i, section in enumerate(sections):
-            with st.expander(f"**{section['law_title']}** — {section['title'][:50]}", expanded=True):
-                st.markdown(section["content"])
-
-
-def render_api_mode(laws):
-    """API-connected MCQ generation (requires API key)."""
-    st.markdown("### 🤖 AI MCQ জেনারেটর (API)")
-    
-    st.warning("⚠️ এই ফিচারটি ব্যবহার করতে OpenAI বা Google Gemini API key প্রয়োজন।")
-    
-    api_provider = st.radio("AI Provider", ["OpenAI (GPT-4o)", "Google Gemini (Free)"], horizontal=True)
-    api_key = st.text_input("API Key", type="password", placeholder="আপনার API key দিন")
-    
-    if not api_key:
-        st.info("💡 বিনামূল্যে ব্যবহার করতে Google Gemini API key ব্যবহার করুন: [Get Free Key](https://aistudio.google.com/apikey)")
-        return
-    
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        api_law = st.selectbox(
-            "আইন",
-            options=list(LAW_INFO.keys()),
-            format_func=lambda x: LAW_INFO[x]["title_bn"],
-            key="api_law",
-        )
-    with col2:
-        api_topic = st.text_input("বিষয়", key="api_topic", placeholder="bail, murder, etc.")
-    with col3:
-        api_n = st.number_input("প্রশ্ন সংখ্যা", 1, 10, 5, key="api_n")
-    
-    if st.button("⚡ MCQ তৈরি করুন", type="primary", key="api_generate"):
-        with st.spinner("MCQ তৈরি হচ্ছে..."):
-            # Get context
-            if api_topic:
-                results = search_sections(laws, api_topic, law_filter=api_law, max_results=8)
-            else:
-                results = [{"content": s["content"], "title": s["title"]} 
-                          for s in get_random_sections(laws, law_key=api_law, n=8)]
-            
-            context = "\n\n".join([f"{r['title']}\n{r['content']}" for r in results])
-            
-            system_msg = """You are a Bangladesh Bar Council MCQ examiner. Generate MCQs in Bengali.
-Rules: Use ONLY provided sections. 4 options (ক,খ,গ,ঘ). Provide answer + explanation with section reference."""
-            
-            user_msg = f"""Generate {api_n} Bar Council MCQs from these sections:
-
-{context}
-
-Output in Bengali with proper legal terminology."""
-            
-            try:
-                if "OpenAI" in api_provider:
-                    from openai import OpenAI
-                    client = OpenAI(api_key=api_key)
-                    response = client.chat.completions.create(
-                        model="gpt-4o-mini",
-                        messages=[
-                            {"role": "system", "content": system_msg},
-                            {"role": "user", "content": user_msg},
-                        ],
-                        temperature=0.7,
-                    )
-                    output = response.choices[0].message.content
-                else:
-                    import google.generativeai as genai
-                    genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel('gemini-1.5-flash')
-                    response = model.generate_content(f"{system_msg}\n\n{user_msg}")
-                    output = response.text
-                
-                st.markdown("---")
-                st.markdown("### 📝 Generated MCQs")
-                st.markdown(output)
-                
-            except Exception as e:
-                st.error(f"Error: {e}")
-
+**সঠিক উত্তর:** (letter)
+**ব্যাখ্যা:** (section reference + explanation in Bengali)
+"""
 
 # ============================================================
-# MAIN APP
+# UI PAGES
+# ============================================================
+
+def page_mcq_generator(laws):
+    st.markdown("## 📝 AI MCQ জেনারেটর")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        law_key = st.selectbox("আইন নির্বাচন", list(LAW_INFO.keys()),
+            format_func=lambda x: f"{LAW_INFO[x]['icon']} {LAW_INFO[x]['title_bn']}", key="mcq_law")
+    with col2:
+        topic = st.text_input("বিষয় (Topic)", placeholder="bail, murder, confession, limitation...")
+    with col3:
+        n_q = st.slider("প্রশ্ন সংখ্যা", 1, 15, 5)
+    
+    difficulty = st.radio("কঠিনতা", ["সহজ", "মাঝারি", "কঠিন"], horizontal=True)
+    
+    if st.button("⚡ MCQ তৈরি করুন", type="primary"):
+        with st.spinner("AI MCQ তৈরি করছে..."):
+            if topic:
+                results = search_sections(laws, topic, law_filter=law_key, max_results=8)
+            else:
+                results = get_random_sections(laws, law_key=law_key, n=8)
+            
+            context = "\n\n---\n\n".join([
+                f"[{r.get('law_title','')}] {r['title']}\n{r['content_en']}" for r in results
+            ])
+            
+            prompt = f"""Based on these authentic Bangladesh law sections, generate {n_q} Bar Council MCQs.
+Difficulty: {difficulty}
+Topic: {topic or 'General'}
+
+LAW SECTIONS:
+{context}
+
+Generate {n_q} MCQs in Bengali now:"""
+            
+            output = ai_generate(prompt, SYSTEM_PROMPT)
+            if output:
+                st.markdown("---")
+                st.markdown("### 📋 Generated MCQs")
+                st.markdown(output)
+                st.download_button("📥 Download MCQs", output, file_name="mcqs.md", mime="text/markdown")
+            else:
+                st.error("AI সংযোগ নেই। Sidebar-এ API key দিন।")
+
+def page_law_browser(laws):
+    st.markdown("## 📖 আইনের ধারা ব্রাউজার")
+    st.caption("⚠️ এই আইনগুলো ব্রিটিশ আমলে ইংরেজিতে প্রণীত। bdlaws-এ বাংলা অনুবাদ নেই। AI দিয়ে বাংলা ব্যাখ্যা পাবেন।")
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        law_key = st.selectbox("আইন", list(LAW_INFO.keys()),
+            format_func=lambda x: f"{LAW_INFO[x]['icon']} {LAW_INFO[x]['title_bn']}", key="browse_law")
+        if law_key in laws:
+            sections_en = laws[law_key]["en"]["sections"]
+            titles = [f"{i+1}. {s['title'][:55]}" for i, s in enumerate(sections_en)]
+            idx = st.selectbox(f"ধারা ({len(sections_en)} টি)", range(len(sections_en)),
+                format_func=lambda i: titles[i], key="browse_sec")
+    with col2:
+        if law_key in laws:
+            sec_en = sections_en[idx]
+            st.markdown(f"**{LAW_INFO[law_key]['title_en']}** | {LAW_INFO[law_key]['title_bn']}")
+            st.markdown(f"### {sec_en['title']}")
+            tab_en, tab_bn, tab_ai = st.tabs(["📜 মূল আইন (English)", "🇧🇩 বাংলা অনুবাদ (AI)", "🤖 বিশ্লেষণ"])
+            with tab_en:
+                st.markdown(sec_en["content"])
+            with tab_bn:
+                if st.button("🇧🇩 বাংলায় অনুবাদ করুন", key=f"translate_{idx}"):
+                    with st.spinner("অনুবাদ হচ্ছে..."):
+                        prompt = f"""Translate this Bangladesh law section into Bengali (বাংলা).
+Keep legal terminology accurate. This is from {LAW_INFO[law_key]['title_en']}.
+
+Section: {sec_en['title']}
+{sec_en['content']}
+
+Provide full Bengali translation:"""
+                        output = ai_generate(prompt)
+                        if output:
+                            st.markdown(output)
+                        else:
+                            st.error("AI সংযোগ নেই।")
+            with tab_ai:
+                if st.button("📖 সহজ বাংলায় ব্যাখ্যা", key=f"explain_{idx}"):
+                    with st.spinner("ব্যাখ্যা তৈরি হচ্ছে..."):
+                        prompt = f"""Explain this Bangladesh law section in simple Bengali for a Bar Council exam student.
+Include: key points, practical application, common exam questions from this section, and any important exceptions.
+
+Section: {sec_en['title']}
+Law: {LAW_INFO[law_key]['title_en']}
+
+Full text:
+{sec_en['content']}
+
+Explain in simple Bengali:"""
+                        output = ai_generate(prompt)
+                        if output:
+                            st.markdown(output)
+                        else:
+                            st.error("AI সংযোগ নেই।")
+
+def page_search(laws):
+    st.markdown("## 🔍 আইন অনুসন্ধান")
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        query = st.text_input("অনুসন্ধান (English keywords)", placeholder="bail, confession, limitation, murder, injunction...")
+    with col2:
+        law_filter = st.selectbox("ফিল্টার", [None] + list(LAW_INFO.keys()),
+            format_func=lambda x: "সকল আইন" if x is None else LAW_INFO[x]["title_bn"], key="search_filter")
+    if query:
+        results = search_sections(laws, query, law_filter=law_filter, max_results=15)
+        if results:
+            st.success(f"✅ {len(results)} টি ফলাফল")
+            for i, r in enumerate(results):
+                with st.expander(f"**{r['law_title']}** — {r['title'][:60]}", expanded=(i < 2)):
+                    st.markdown(r["content_en"])
+        else:
+            st.warning("কোনো ফলাফল পাওয়া যায়নি।")
+
+def page_analyze(laws):
+    st.markdown("## 🧠 আইন বিশ্লেষণ (AI)")
+    st.markdown("যেকোনো আইনি প্রশ্ন জিজ্ঞাসা করুন — AI উত্তর দেবে আইনের ধারা উল্লেখ করে।")
+    
+    question = st.text_area("আপনার প্রশ্ন লিখুন", placeholder="যেমন: জামিনের শর্তাবলী কী? ধারা ৩০২ এর শাস্তি কত?", height=100)
+    
+    if st.button("🧠 বিশ্লেষণ করুন", type="primary"):
+        if not question:
+            st.warning("প্রশ্ন লিখুন")
+            return
+        with st.spinner("বিশ্লেষণ চলছে..."):
+            # Find relevant sections
+            results = search_sections(laws, question, max_results=10)
+            context = "\n\n".join([f"[{r['law_title']}] {r['title']}\n{r['content_en']}" for r in results[:8]])
+            
+            prompt = f"""You are a Bangladesh law expert. Answer this legal question using ONLY the provided law sections.
+Answer in Bengali. Cite specific sections.
+
+Question: {question}
+
+Relevant Law Sections:
+{context}
+
+Provide a detailed answer in Bengali with section references:"""
+            
+            output = ai_generate(prompt)
+            if output:
+                st.markdown("### উত্তর:")
+                st.markdown(output)
+                with st.expander("📚 প্রাসঙ্গিক ধারাসমূহ"):
+                    for r in results[:5]:
+                        st.markdown(f"**{r['law_title']}** — {r['title']}")
+            else:
+                st.error("AI সংযোগ নেই।")
+
+def page_compare(laws):
+    st.markdown("## ⚖️ ধারা তুলনা")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("### ধারা ১")
+        law1 = st.selectbox("আইন ১", list(LAW_INFO.keys()),
+            format_func=lambda x: LAW_INFO[x]["title_bn"], key="cmp_law1")
+        if law1 in laws:
+            secs1 = laws[law1]["en"]["sections"]
+            idx1 = st.selectbox("ধারা", range(len(secs1)),
+                format_func=lambda i: secs1[i]["title"][:50], key="cmp_sec1")
+            st.markdown(secs1[idx1]["content"])
+    with col2:
+        st.markdown("### ধারা ২")
+        law2 = st.selectbox("আইন ২", list(LAW_INFO.keys()),
+            format_func=lambda x: LAW_INFO[x]["title_bn"], key="cmp_law2")
+        if law2 in laws:
+            secs2 = laws[law2]["en"]["sections"]
+            idx2 = st.selectbox("ধারা", range(len(secs2)),
+                format_func=lambda i: secs2[i]["title"][:50], key="cmp_sec2")
+            st.markdown(secs2[idx2]["content"])
+    
+    if st.button("🤖 AI তুলনা করুন"):
+        with st.spinner("তুলনা করা হচ্ছে..."):
+            s1 = laws[law1]["en"]["sections"][idx1]
+            s2 = laws[law2]["en"]["sections"][idx2]
+            prompt = f"""Compare these two Bangladesh law sections. Explain similarities, differences, and when each applies.
+Answer in Bengali for Bar Council exam preparation.
+
+Section 1: [{LAW_INFO[law1]['title_en']}] {s1['title']}
+{s1['content']}
+
+Section 2: [{LAW_INFO[law2]['title_en']}] {s2['title']}
+{s2['content']}
+
+Compare in Bengali:"""
+            output = ai_generate(prompt)
+            if output:
+                st.markdown("### তুলনামূলক বিশ্লেষণ:")
+                st.markdown(output)
+
+def page_practice(laws):
+    st.markdown("## 📚 অনুশীলন মোড")
+    col1, col2 = st.columns(2)
+    with col1:
+        p_law = st.selectbox("আইন", [None] + list(LAW_INFO.keys()),
+            format_func=lambda x: "সকল আইন" if x is None else LAW_INFO[x]["title_bn"], key="prac_law")
+    with col2:
+        n = st.slider("ধারা সংখ্যা", 1, 10, 3)
+    if st.button("🔄 নতুন ধারা", key="prac_btn"):
+        sections = get_random_sections(laws, law_key=p_law, n=n)
+        for i, s in enumerate(sections):
+            with st.expander(f"**{s['law_title']}** — {s['title'][:50]}", expanded=True):
+                st.markdown(s["content_en"])
+
+# ============================================================
+# MAIN
 # ============================================================
 
 def main():
-    # Header
-    st.markdown("""
-    <div style="text-align: center; padding: 1rem 0;">
-        <h1>⚖️ বাংলাদেশ বার কাউন্সিল MCQ জেনারেটর</h1>
-        <p style="font-size: 1.1rem; color: #666;">
-            Bangladesh Bar Council Advocates' Enrolment Examination Preparation
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
+    # Sidebar
+    with st.sidebar:
+        st.markdown("## ⚖️ বার কাউন্সিল MCQ")
+        st.markdown("---")
+        
+        # AI Settings
+        st.markdown("### 🔑 AI Settings")
+        
+        PROVIDERS = ["Gemini", "OpenAI / GPT", "Claude (Anthropic)", "OpenRouter (Any Model)", "Custom (OpenAI-compatible)"]
+        DEFAULT_MODELS = {
+            "Gemini": "gemini-2.0-flash",
+            "OpenAI / GPT": "gpt-4o-mini",
+            "Claude (Anthropic)": "claude-sonnet-4-20250514",
+            "OpenRouter (Any Model)": "google/gemini-2.0-flash-exp:free",
+            "Custom (OpenAI-compatible)": "llama3",
+        }
+        
+        provider = st.selectbox("AI Provider", PROVIDERS, 
+            index=PROVIDERS.index(st.session_state.get("ai_provider", "Gemini")),
+            key="provider_select")
+        st.session_state["ai_provider"] = provider
+        
+        # API Key
+        default_key = "AIzaSyCFSO1tskcFeaAafCDKkpvADjey2Or04CQ" if provider == "Gemini" else ""
+        api_key = st.text_input("API Key", type="password", 
+            value=st.session_state.get("ai_api_key", default_key),
+            key="key_input")
+        st.session_state["ai_api_key"] = api_key
+        
+        # Model name
+        model = st.text_input("Model", value=st.session_state.get("ai_model", DEFAULT_MODELS.get(provider, "")),
+            key="model_input")
+        st.session_state["ai_model"] = model
+        
+        # Custom base URL for self-hosted
+        if provider == "Custom (OpenAI-compatible)":
+            base_url = st.text_input("Base URL", 
+                value=st.session_state.get("ai_base_url", "http://localhost:11434/v1"),
+                key="base_url_input")
+            st.session_state["ai_base_url"] = base_url
+        
+        # Clear cache on settings change
+        if st.button("🔄 Connect", key="connect_btn"):
+            for k in list(st.session_state.keys()):
+                if k.startswith("ai_client_"):
+                    del st.session_state[k]
+            st.rerun()
+        
+        # Status
+        result = get_ai_client()
+        if result:
+            st.success(f"✅ {provider} সংযুক্ত")
+            st.caption(f"Model: {model}")
+        else:
+            err = st.session_state.get("ai_error", "")
+            if err:
+                st.error(f"❌ {err}")
+            else:
+                st.info("🔄 Connect ক্লিক করুন")
+        
+        st.markdown("---")
+        st.markdown("### 📊 আইন সমূহ")
+        laws = load_all_laws()
+        total = 0
+        for key, info in LAW_INFO.items():
+            if key in laws:
+                n = len(laws[key]["en"]["sections"])
+                total += n
+                st.markdown(f"{info['icon']} **{info['title_bn']}** — {n}")
+        st.markdown(f"**মোট:** {total} ধারা")
+        st.markdown("---")
+        st.caption("উৎস: [bdlaws.minlaw.gov.bd](http://bdlaws.minlaw.gov.bd)")
     
-    # Load data
-    laws = load_all_laws()
+    # Header
+    st.markdown("""<div style="text-align:center;padding:0.5rem 0">
+        <h1>⚖️ বাংলাদেশ বার কাউন্সিল MCQ জেনারেটর</h1>
+        <p>Advocates' Enrolment Examination Preparation — 7 Laws | EN + BN | AI-Powered</p>
+    </div>""", unsafe_allow_html=True)
     
     if not laws:
-        st.error("❌ আইনের ডেটা লোড করা যায়নি। data/target_laws/ ফোল্ডার চেক করুন।")
+        st.error("❌ ডেটা লোড হয়নি।")
         return
     
-    # Sidebar
-    render_sidebar(laws)
-    
-    # Main tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "📝 MCQ জেনারেটর",
-        "🤖 AI MCQ (API)",
-        "📖 ধারা ব্রাউজার",
-        "🔍 অনুসন্ধান",
-        "📚 অনুশীলন",
+    # Navigation
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+        "📝 MCQ জেনারেটর", "📖 ধারা ব্রাউজার", "🔍 অনুসন্ধান",
+        "🧠 আইন বিশ্লেষণ", "⚖️ তুলনা", "📚 অনুশীলন"
     ])
     
-    with tab1:
-        render_mcq_generator(laws)
+    with tab1: page_mcq_generator(laws)
+    with tab2: page_law_browser(laws)
+    with tab3: page_search(laws)
+    with tab4: page_analyze(laws)
+    with tab5: page_compare(laws)
+    with tab6: page_practice(laws)
     
-    with tab2:
-        render_api_mode(laws)
-    
-    with tab3:
-        render_section_browser(laws)
-    
-    with tab4:
-        render_search(laws)
-    
-    with tab5:
-        render_practice_mode(laws)
-    
-    # Footer
     st.markdown("---")
-    st.markdown("""
-    <div style="text-align: center; color: #888; font-size: 0.85rem;">
-        <p>📚 উৎস: Ministry of Law, Justice and Parliamentary Affairs, Bangladesh | 
-        <a href="http://bdlaws.minlaw.gov.bd">bdlaws.minlaw.gov.bd</a></p>
-        <p>⚠️ এই অ্যাপটি শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে। পরীক্ষার প্রস্তুতির জন্য মূল আইন পড়ুন।</p>
-    </div>
-    """, unsafe_allow_html=True)
-
+    st.caption("⚠️ শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে। পরীক্ষার প্রস্তুতির জন্য মূল আইন পড়ুন।")
 
 if __name__ == "__main__":
     main()
